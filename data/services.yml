@@ -1,0 +1,16 @@
+#  icons can be found on https://themify.me/themify-icons
+---
+enable: true
+title: Cloud Training Services With a Difference
+services:
+  - icon: ti-user
+    title: Experienced Instructors
+    description: All our instructors are pedagogically trained subject matter experts with extensive experience
+
+  - icon: ti-check-box
+    title: Tailored Content
+    description: Instead of concentrating on certifications, our content is tailored for professional usage
+
+  - icon: ti-target
+    title: The Best, Always
+    description: We strive for the best learning experience for our students

@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+<section class="page-header">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h1>{{ .Title }}</h1>
+        <p>
+          {{ .Params.description }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blog">
+  <div class="container">
+    <div class="row">
+      {{ range (.Paginator 6).Pages }}
+        <div class="col-lg-12 col-md-12">
+          <article class="blog-post-item">
+            <div class="blog-post-content">
+              <img source=""> </img>
+              <h2>
+                <a href="{{ .Permalink }}"
+                  >{{ .Title }}</a>
+              </h2>
+              <div class="button-btn">
+                <h2>
+                    {{ .Title }}
+                </h2>
+              </div>
+            </div>
+          </article>
+        </div>
+      {{ end }}
+      <div class="col-lg-12">
+        <div class="blog-pagination">
+          <nav>
+            <!-- <ul class="pagination">
+              <li class="page-item active" aria-current="page">
+                <span class="page-link">
+                  1
+                  <span class="sr-only">(current)</span>
+                </span>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <i class="ti-angle-right"></i>
+                </a>
+              </li>
+            </ul> -->
+            {{ template "_internal/pagination.html" . }}
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
