@@ -1,0 +1,76 @@
+# MAIN base
+baseURL = "./"
+languageCode = "en-us"
+title = "Deep Dives | Cloud training with a difference."
+theme = "apsho"
+
+# Navigation Bar
+[[menu.main]]
+    name = "Home"
+    url = "#hero"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "#feature"
+    weight = 2
+[[menu.main]]
+    name = "Courses"
+    url = "/courses"
+    weight = 3
+[[menu.main]]
+    name = "Team"
+    url = "#team"
+    weight = 4
+[[menu.main]]
+    name = "FAQ"
+    url = "#faq"
+    weight = 5
+[[menu.main]]
+    name = "Blog"
+    URL = "https://blog.deepdives.eu/"
+    weight = 6
+    hrefTargetBlank = true
+
+# Footer Sitemap
+[[menu.sitemap]]
+    name = "Home"
+    url = "#"
+    weight = 1
+[[menu.sitemap]]
+    name = "Courses"
+    url = "/courses"
+    weight = 2
+[[menu.sitemap]]
+    name = "Privacy & Policy"
+    url = "/privacy"
+    weight = 3
+[[menu.sitemap]]
+    name = "Contact"
+    url = "/contact"
+    weight = 4
+
+# Footer Address
+[params.address]
+address = "Deep Dives oy, PO Box 333, 00121 Helsinki, Finland"
+email = "info@deepdives.eu"
+
+# Footer Social
+[params.social]
+facebook = "https://www.facebook.com/pg/#"
+twitter = "https://twitter.com/#"
+github = "https://github.com/#"
+
+[params]
+
+# Header
+logo = "images/logo.png"
+formspreeURL = "https://formspree.io/#"
+googleAnalytics = "#"
+
+# Footer
+footerTitle = "Subscribe and Stay Updated"
+copyright1 = "All right reserved"
+copyright2 = "Copyright © Deep Dives {year}"
+
+#contact
+email = "info@deepdives.eu"
