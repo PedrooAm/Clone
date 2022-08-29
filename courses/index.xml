@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our Courses on Deep Dives | Cloud training with a difference.</title>
+    <link>./courses/</link>
+    <description>Recent content in Our Courses on Deep Dives | Cloud training with a difference.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Aug 2022 15:10:11 +0600</lastBuildDate><atom:link href="./courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Cloud Practitioner Essentials</title>
+      <link>./courses/aws-cloud-practitioner-essentials-sep12-copy/</link>
+      <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
+      
+      <guid>./courses/aws-cloud-practitioner-essentials-sep12-copy/</guid>
+      <description>This course is for individuals who seek an overall understanding of the Amazon Web Services (AWS) Cloud, independent of specific technical roles.
+About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
+Dates &amp;amp; Location October 13th 2022</description>
+    </item>
+    
+    <item>
+      <title>AWS Cloud Practitioner Essentials</title>
+      <link>./courses/aws-cloud-practitioner-essentials-sep12/</link>
+      <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
+      
+      <guid>./courses/aws-cloud-practitioner-essentials-sep12/</guid>
+      <description>This course is for individuals who seek an overall understanding of the Amazon Web Services (AWS) Cloud, independent of specific technical roles.
+About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
+Dates &amp;amp; Location October 13th 2022</description>
+    </item>
+    
+  </channel>
+</rss>
