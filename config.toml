@@ -16,7 +16,7 @@ theme = "apsho"
     weight = 2
 [[menu.main]]
     name = "Courses"
-    url = "/courses"
+    url = "./courses"
     weight = 3
 [[menu.main]]
     name = "Team"
