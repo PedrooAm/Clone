@@ -6,8 +6,24 @@ authorThumb: images/courses/norcloud.jpg
 location: Virtual
 Dates: September 12th 2022
 Time: 09:00-17:00 CEST
-buttontext: Apply Now
-buttonURL: https://stripe.com/
+
+description : "You will learn how to create buckets and edit their metadata, upload and download objects in different ways, change storage tiers, select locations, use encryption, access control with iam and/or acls, lifecycle management rules, retention policies and object holds, how to monitor GCS and how to calculate the costs of all operations."
+# course thumbnail
+image: "images/courses/aws.jpg"
+# taxonomy
+category: "Cloud Storage"
+# teacher
+team: "Johannes Verwijnen"
+# duration
+duration : "n/a Month"
+# weekly
+weekly : "05 hours"
+# course fee
+fee : "From: €"
+# apply url
+apply_url : "#"
+# type
+type: "course"
 ---
 
 This course is for individuals who seek an overall understanding of the Amazon Web Services (AWS) Cloud, independent of specific technical roles.
