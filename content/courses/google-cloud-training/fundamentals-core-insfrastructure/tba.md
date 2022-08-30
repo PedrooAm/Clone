@@ -7,10 +7,10 @@ location: Virtual | Online Session
 course_date: To Be Announced
 course_time: Or contact us to set up a dedicated session
 # apply payment url
-apply_url : "https://nordcloud.com/wp-content/uploads/2020/03/GCP-fundamentals-outline.pdf"
+apply_url : "/contact"
 # course fee
-fee : "N/A"
-button_text: "Download .PDF"
+fee : TBA
+button_text: "Contact Us"
 ---
 
 #### About the Course

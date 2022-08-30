@@ -3,14 +3,14 @@ title: "FinOps Certified Practitioner"
 description : "Get in-house FinOps training – for whole departments or specific teams, with content tailored to your challenges and goals."
 date: 2020-09-01T12:57:56+06:00
 courseThumb: images/courses/finops-custom.png
-location: N/A | N/A
-course_date: N/A
-course_time: N/A
+location: TBA
+course_date: TBA
+course_time: TBA
 # apply payment url
-apply_url : "/courses/finops-training/custom/"
+apply_url : "/contact"
 # course fee
-fee : "N/A"
-button_text: "More Info"
+fee : TBA
+button_text: "Contact Us"
 ---
 
 #### About the Course

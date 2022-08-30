@@ -40,10 +40,10 @@
                       <br>
                       <span><b>LOCATION </b>{{ .Params.location }}</span>
                       <br>
-                      <span><b>PRICE </b>{{ .Params.fee }}</span>
+                      <span><b>PRICE </b>{{ .Params.fee }} € excl. VAT</span>
                   </div>
                   <div class="meta">
-                    <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-sm btn-primary-filled small-btn">Buy Now</a>
+                    <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-sm btn-primary-filled small-btn">{{ .Params.button_text }}</a>
                  </div>
                   </div>
               </div>

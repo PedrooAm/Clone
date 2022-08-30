@@ -7,9 +7,9 @@ location: Virtual | Online Session
 course_date: To Be Announced
 course_time: 2 Days
 # apply payment url
-apply_url : "#"
+apply_url : "https://buy.stripe.com/test_28o8zJfawd8sh0Y000"
 # course fee
-fee : "€1,400.00 P.P"
+fee : "1.400,00"
 button_text: "Buy Now"
 ---
 

@@ -8,9 +8,9 @@ location: Virtual | Online Session
 course_date: October 13th 2022
 course_time: 09:00-17:00 EEST
 # apply payment url
-apply_url : "https://www.stripe.com"
+apply_url : "https://buy.stripe.com/test_28o8zJfawd8sh0Y000"
 # course fee
-fee : "500€"
+fee : "890"
 # course thumbnail
 image: "images/courses/aws.jpg"
 button_text: "Buy Now"

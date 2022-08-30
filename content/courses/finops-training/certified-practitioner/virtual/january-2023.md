@@ -7,9 +7,9 @@ location: Virtual | Online Session
 course_date: January 2023
 course_time: 9:00am – 2:00pm (CET)
 # apply payment url
-apply_url : "https://www.stripe.com"
+apply_url : "#"
 # course fee
-fee : "500€"
+fee : "1.699,00"
 # course thumbnail
 image: "images/courses/aws.jpg"
 button_text: "Buy Now"

@@ -8,9 +8,9 @@ location: Virtual | Online Session
 course_date: September 29th 2022
 course_time: 09:00-17:00 CEST
 # apply payment url
-apply_url : "https://www.stripe.com"
+apply_url : "#"
 # course fee
-fee : "500€"
+fee : "890"
 # course thumbnail
 image: "images/courses/aws.jpg"
 button_text: "Buy Now"

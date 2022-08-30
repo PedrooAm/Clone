@@ -1,16 +1,16 @@
 ---
 title: "AWS Cloud Practitioner Essentials"
 description : "An excellent starting point to get to know the AWS cloud and its products, services, and solutions - in just one day."
-date: 2020-09-01T12:57:56+06:00
+date: 2020-08-01T12:55:56+06:00
 featureImage: images/courses/aws.jpg
 courseThumb: images/courses/aws.jpg
 location: Virtual | Online Session
 course_date: September 12th 2022
 course_time: 09:00-17:00 EEST
 # apply payment url
-apply_url : "https://www.stripe.com"
+apply_url : "https://buy.stripe.com/test_28o8zJfawd8sh0Y000"
 # course fee
-fee : "500€"
+fee : "890"
 # course thumbnail
 image: "images/courses/aws.jpg"
 button_text: "Buy Now"

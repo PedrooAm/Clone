@@ -7,10 +7,10 @@ location: Virtual | Online Session
 course_date: To Be Announced
 course_time: Or contact us to set up a dedicated session
 # apply payment url
-apply_url : "#"
+apply_url : "/contact"
 # course fee
-fee : "N/A"
-button_text: "To Be Announced"
+fee : TBA
+button_text: "To Be Announced Or Contact Us"
 ---
 
 #### About the Course

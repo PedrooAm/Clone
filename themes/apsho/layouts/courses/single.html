@@ -35,7 +35,7 @@
             </br> 
               <span><b>LOCATION: </b>{{ .Params.location }}</span>
             </br> 
-              <span><b>PRICE: </b>{{ .Params.fee }}</span>
+              <span><b>PRICE: </b>{{ .Params.fee }}€ excl. VAT</span>
             </br> 
           </br> 
             </div>
@@ -48,10 +48,10 @@
           </br> 
             <span><b>LOCATION: </b>{{ .Params.location }}</span>
           </br> 
-            <span><b>PRICE: </b>{{ .Params.fee }}</span>
+            <span><b>PRICE: </b>{{ .Params.fee }} € excl. VAT</span>
           </br> 
         </br> 
-        <a target="_blank" href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary-filled">{{ .Params.button_text }}
+        <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary-filled">{{ .Params.button_text }}
         </a>    
           </div> 
           </article>
