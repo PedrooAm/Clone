@@ -1,5 +1,5 @@
 # MAIN base
-baseURL = "./"
+baseURL = "/"
 languageCode = "en-us"
 title = "Deep Dives | Cloud training with a difference."
 theme = "apsho"
@@ -12,7 +12,7 @@ theme = "apsho"
     weight = 1
 [[menu.main]]
     name = "About"
-    url = "#feature"
+    url = "./#feature"
     weight = 2
 [[menu.main]]
     name = "Courses"
