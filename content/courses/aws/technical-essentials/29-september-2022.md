@@ -16,17 +16,14 @@ image: "images/courses/aws.jpg"
 button_text: "Buy Now"
 ---
 
+### AWS Technical Essentials, Stockholm - Virtual Session 
+
+###### (AES2209SEV)
+
 ##### About the Course
 
 AWS Technical Essentials introduces you to essential AWS services and common solutions. The course covers the fundamental AWS concepts related to compute, database, storage, networking, monitoring, and security. You will start working in AWS through hands-on course experiences. The course covers the concepts necessary to increase your understanding of AWS services, so that you can make informed decisions about solutions that meet business requirements. Throughout the course, you will gain information on how to build, compare, and apply highly available, fault tolerant, scalable, and cost-effective cloud solutions.
 
-#### Dates & Location
-
-October 13th 2022
-
-09:00-17:00 EEST
-
-Virtual - Online Session
 
 #### Course Price 
 
@@ -61,7 +58,7 @@ Navigate the AWS Management Console
 * Explore AWS networking services
 * Access and configure Amazon CloudWatch monitoring features
 
-![](https://nordcloud.com/wp-content/uploads/2020/03/nordcloud_web_square-100.jpg#right)
+![](https://nordcloud.com/wp-content/uploads/2020/03/nordcloud_web_square-100.jpg#floatright)
 
 #### Agenda
 

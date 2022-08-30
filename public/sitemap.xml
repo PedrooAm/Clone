@@ -1,55 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
-    <loc>./blog/aws-iam-not/</loc>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/blog/aws-iam-not/</loc>
     <lastmod>2021-01-02T20:18:07+06:00</lastmod>
-  </url><url>
-    <loc>./</loc>
-    <lastmod>2021-01-02T20:18:07+06:00</lastmod>
-  </url><url>
-    <loc>./courses/aws/cloud-practitioner-essentials/virtual/october-13th-2022/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
-    <loc>./courses/aws/cloud-practitioner-essentials/virtual/september-12th-2022/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
-    <loc>./courses/aws/technical-essentials/aws-technical-essentials/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
-    <loc>./courses/microsoft-azure-training/fundamentals/general/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
-    <loc>./courses/finops-training/certified-practitioner/virtual/11-12-october-2022/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
-    <loc>./courses/finops-training/certified-practitioner/virtual/january-2023/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
-    <loc>./courses/finops-training/custom/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
-    <loc>./courses/google-cloud-training/fundamentals-core-insfrastructure/tba/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
-    <loc>./courses/agnostic-training/general/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
-    <loc>./courses/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
-    <loc>./blog/</loc>
-    <lastmod>2020-08-31T20:33:11+06:00</lastmod>
-  </url><url>
-    <loc>./blog/how-create-serverless-url-shortener-using-amazon-s3/</loc>
-    <lastmod>2020-01-06T20:18:07+06:00</lastmod>
-  </url><url>
-    <loc>./categories/</loc>
-  </url><url>
-    <loc>./contact/</loc>
-  </url><url>
-    <loc>./privacy/</loc>
-  </url><url>
-    <loc>./tags/</loc>
   </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/</loc>
+    <lastmod>2021-01-02T20:18:07+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/courses/aws/cloud-practitioner-essentials/virtual/october-13th-2022/</loc>
+    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/courses/aws/technical-essentials/aws-technical-essentials/</loc>
+    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/courses/microsoft-azure-training/fundamentals/general/</loc>
+    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/certified-practitioner/virtual/11-12-october-2022/</loc>
+    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/certified-practitioner/virtual/january-2023/</loc>
+    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/custom/</loc>
+    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/courses/google-cloud-training/fundamentals-core-insfrastructure/tba/</loc>
+    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/courses/agnostic-training/general/</loc>
+    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/courses/</loc>
+    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/blog/</loc>
+    <lastmod>2020-08-31T20:33:11+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/courses/aws/cloud-practitioner-essentials/virtual/september-12th-2022/</loc>
+    <lastmod>2020-08-01T12:55:56+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/blog/how-create-serverless-url-shortener-using-amazon-s3/</loc>
+    <lastmod>2020-01-06T20:18:07+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/privacy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://enchanting-llama-faa0bb.netlify.app/tags/</loc>
+  </url>
+  
 </urlset>

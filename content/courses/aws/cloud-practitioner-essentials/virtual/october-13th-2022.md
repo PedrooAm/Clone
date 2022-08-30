@@ -19,19 +19,11 @@ button_text: "Buy Now"
 ### About the Course
 On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
 
-### Dates & Location
-
-October 13th 2022
-
-09:00-17:00 EEST
-
-Virtual - Online Session
 
 ### Course Price 
 
-Virtual campaign price EUR 770.00 (excl VAT).
-
-Regular price EUR 890.00 (excl VAT).
+- Virtual campaign price EUR 770.00 (excl VAT).
+- Regular price EUR 890.00 (excl VAT).
 
 ### Language
 
@@ -69,7 +61,7 @@ The course will be taught in English.
 - Define the core billing, account management, and pricing models
 - Explain how to use pricing tools to make cost-effective choices for AWS services
 
-![](https://nordcloud.com/wp-content/uploads/2020/03/nordcloud_web_square-39-1.jpg#right)
+![](https://nordcloud.com/wp-content/uploads/2020/03/nordcloud_web_square-39-1.jpg#floatright)
 
 
 ### Agenda

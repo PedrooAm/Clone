@@ -2,32 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Our Courses on Deep Dives | Cloud training with a difference.</title>
-    <link>./courses/</link>
+    <link>https://enchanting-llama-faa0bb.netlify.app/courses/</link>
     <description>Recent content in Our Courses on Deep Dives | Cloud training with a difference.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2020 12:57:56 +0600</lastBuildDate><atom:link href="./courses/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AWS Cloud Practitioner Essentials</title>
-      <link>./courses/aws/cloud-practitioner-essentials/virtual/october-13th-2022/</link>
-      <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
-      
-      <guid>./courses/aws/cloud-practitioner-essentials/virtual/october-13th-2022/</guid>
-      <description>About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
-Dates &amp;amp; Location October 13th 2022
-09:00-17:00 EEST
-Virtual - Online Session
-Course Price Virtual campaign price EUR 770.00 (excl VAT).
-Regular price EUR 890.00 (excl VAT).
-Language The course will be taught in English.</description>
-    </item>
+    <lastBuildDate>Tue, 01 Sep 2020 12:57:56 +0600</lastBuildDate>
+    
+	<atom:link href="https://enchanting-llama-faa0bb.netlify.app/courses/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>AWS Cloud Practitioner Essentials</title>
-      <link>./courses/aws/cloud-practitioner-essentials/virtual/september-12th-2022/</link>
+      <link>https://enchanting-llama-faa0bb.netlify.app/courses/aws/cloud-practitioner-essentials/virtual/october-13th-2022/</link>
       <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
       
-      <guid>./courses/aws/cloud-practitioner-essentials/virtual/september-12th-2022/</guid>
+      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/aws/cloud-practitioner-essentials/virtual/october-13th-2022/</guid>
       <description>About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
 Dates &amp;amp; Location October 13th 2022
 09:00-17:00 EEST
@@ -39,19 +28,19 @@ Language The course will be taught in English.</description>
     
     <item>
       <title>AWS Technical Essentials</title>
-      <link>./courses/aws/technical-essentials/aws-technical-essentials/</link>
+      <link>https://enchanting-llama-faa0bb.netlify.app/courses/aws/technical-essentials/aws-technical-essentials/</link>
       <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
       
-      <guid>./courses/aws/technical-essentials/aws-technical-essentials/</guid>
+      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/aws/technical-essentials/aws-technical-essentials/</guid>
       <description>About the Course AWS Technical Essentials introduces you to essential AWS services and common solutions. The course covers the fundamental AWS concepts related to compute, database, storage, networking, monitoring, and security. You will start working in AWS through hands-on course experiences. The course covers the concepts necessary to increase your understanding of AWS services, so that you can make informed decisions about solutions that meet business requirements. Throughout the course, you will gain information on how to build, compare, and apply highly available, fault tolerant, scalable, and cost-effective cloud solutions.</description>
     </item>
     
     <item>
       <title>AZ-900: Microsoft Azure Fundamentals</title>
-      <link>./courses/microsoft-azure-training/fundamentals/general/</link>
+      <link>https://enchanting-llama-faa0bb.netlify.app/courses/microsoft-azure-training/fundamentals/general/</link>
       <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
       
-      <guid>./courses/microsoft-azure-training/fundamentals/general/</guid>
+      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/microsoft-azure-training/fundamentals/general/</guid>
       <description>About the Course This two-day course will provide foundational level knowledge on cloud concepts; core Azure services; security, privacy, compliance, and trust; and Azure pricing and support.
 The course will cover general cloud computing concepts, as well as general cloud computing models and services, such as Public, Private and Hybrid cloud, and Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), and Software-as-a-Service (SaaS).
 It will also cover some core Azure services and solutions, as well as key Azure pillar services concerning security, privacy, compliance, and trust.</description>
@@ -59,53 +48,68 @@ It will also cover some core Azure services and solutions, as well as key Azure 
     
     <item>
       <title>FinOps Certified Practitioner</title>
-      <link>./courses/finops-training/certified-practitioner/virtual/11-12-october-2022/</link>
+      <link>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/certified-practitioner/virtual/11-12-october-2022/</link>
       <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
       
-      <guid>./courses/finops-training/certified-practitioner/virtual/11-12-october-2022/</guid>
+      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/certified-practitioner/virtual/11-12-october-2022/</guid>
       <description>About the Course This course is an introduction to FinOps fundamentals. It’s ideal for people in a range of business, finance and technology roles, helping build your skills and credibility for driving cost savings from cloud.
-This course is intended for: Cloud budget owners FinOps practitioners like FinOps Analysts, Directors of Cloud Optimisation, Cloud Operations Managers and Cloud Cost Optimisation Data Analysts Engineering roles like Principal Systems Engineers, Cloud Architects, Service Delivery Managers, Engineering Managers, Platform Engineering Directors, Senior Enterprise Architects (EA) and EA Leaders IT Programme and Portfolio Management Leaders Tech leaders like Head of Infrastructure, Head of Cloud Centre of Excellence, CTO and CIO Finance and procurement people like Technology Procurement Managers, Financial Planning Managers and Analysts, Cloud Cost Optimisation Managers and Financial Business Advisors Finance leaders like Head of IT Finance and CFO of IT Course Outline Live (virtual) 2-day, instructor-led workshop (10 hours total) Lead instructor is a real-world practising FinOps leader, supported by 1 to 2 facilitators Interactive approach, featuring group discussions and live activities using Zoom breakout rooms.</description>
+This course is intended for:  Cloud budget owners FinOps practitioners like FinOps Analysts, Directors of Cloud Optimisation, Cloud Operations Managers and Cloud Cost Optimisation Data Analysts Engineering roles like Principal Systems Engineers, Cloud Architects, Service Delivery Managers, Engineering Managers, Platform Engineering Directors, Senior Enterprise Architects (EA) and EA Leaders IT Programme and Portfolio Management Leaders Tech leaders like Head of Infrastructure, Head of Cloud Centre of Excellence, CTO and CIO Finance and procurement people like Technology Procurement Managers, Financial Planning Managers and Analysts, Cloud Cost Optimisation Managers and Financial Business Advisors Finance leaders like Head of IT Finance and CFO of IT  Course Outline  Live (virtual) 2-day, instructor-led workshop (10 hours total) Lead instructor is a real-world practising FinOps leader, supported by 1 to 2 facilitators Interactive approach, featuring group discussions and live activities using Zoom breakout rooms.</description>
     </item>
     
     <item>
       <title>FinOps Certified Practitioner</title>
-      <link>./courses/finops-training/certified-practitioner/virtual/january-2023/</link>
+      <link>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/certified-practitioner/virtual/january-2023/</link>
       <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
       
-      <guid>./courses/finops-training/certified-practitioner/virtual/january-2023/</guid>
+      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/certified-practitioner/virtual/january-2023/</guid>
       <description>About the Course This course is an introduction to FinOps fundamentals. It’s ideal for people in a range of business, finance and technology roles, helping build your skills and credibility for driving cost savings from cloud.
-This course is intended for: Cloud budget owners FinOps practitioners like FinOps Analysts, Directors of Cloud Optimisation, Cloud Operations Managers and Cloud Cost Optimisation Data Analysts Engineering roles like Principal Systems Engineers, Cloud Architects, Service Delivery Managers, Engineering Managers, Platform Engineering Directors, Senior Enterprise Architects (EA) and EA Leaders IT Programme and Portfolio Management Leaders Tech leaders like Head of Infrastructure, Head of Cloud Centre of Excellence, CTO and CIO Finance and procurement people like Technology Procurement Managers, Financial Planning Managers and Analysts, Cloud Cost Optimisation Managers and Financial Business Advisors Finance leaders like Head of IT Finance and CFO of IT Course Outline Live (virtual) 2-day, instructor-led workshop (10 hours total) Lead instructor is a real-world practising FinOps leader, supported by 1 to 2 facilitators Interactive approach, featuring group discussions and live activities using Zoom breakout rooms.</description>
+This course is intended for:  Cloud budget owners FinOps practitioners like FinOps Analysts, Directors of Cloud Optimisation, Cloud Operations Managers and Cloud Cost Optimisation Data Analysts Engineering roles like Principal Systems Engineers, Cloud Architects, Service Delivery Managers, Engineering Managers, Platform Engineering Directors, Senior Enterprise Architects (EA) and EA Leaders IT Programme and Portfolio Management Leaders Tech leaders like Head of Infrastructure, Head of Cloud Centre of Excellence, CTO and CIO Finance and procurement people like Technology Procurement Managers, Financial Planning Managers and Analysts, Cloud Cost Optimisation Managers and Financial Business Advisors Finance leaders like Head of IT Finance and CFO of IT  Course Outline  Live (virtual) 2-day, instructor-led workshop (10 hours total) Lead instructor is a real-world practising FinOps leader, supported by 1 to 2 facilitators Interactive approach, featuring group discussions and live activities using Zoom breakout rooms.</description>
     </item>
     
     <item>
       <title>FinOps Certified Practitioner</title>
-      <link>./courses/finops-training/custom/</link>
+      <link>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/custom/</link>
       <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
       
-      <guid>./courses/finops-training/custom/</guid>
+      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/custom/</guid>
       <description>About the Course Our customised FinOps training is ideal for those looking to build broader FinOps capabilities within their organisation.
 Workshop content builds on the FinOps Certified Practitioner curriculum, with activities and discussions designed around your organisational structure, processes, cloud estate and current FinOps maturity.
-This training is ideal for: Building teams of in-house FinOps experts Laying the foundation for a FinOps culture across teams in the organisation Delivering focused FinOps training for specific teams, like Engineering or Finance Combining FinOps Certified Practitioner knowledge with more advanced skills and capabilities Why Us Your instructors are at the cutting edge of this emerging area, working every day helping organisations across Europe embed effective FinOps processes and maxmise their cloud cost optimisation potential We’re one of Europe’s few certified FinOps Training Providers, as well as a certified Platform Provider and a certified Service Provider We’re known for delivering fun, engaging and interesting training that people enjoy attending – helping people build skills and knowledge that they actually apply when they’re back at their desks </description>
+This training is ideal for:  Building teams of in-house FinOps experts Laying the foundation for a FinOps culture across teams in the organisation Delivering focused FinOps training for specific teams, like Engineering or Finance Combining FinOps Certified Practitioner knowledge with more advanced skills and capabilities  Why Us  Your instructors are at the cutting edge of this emerging area, working every day helping organisations across Europe embed effective FinOps processes and maxmise their cloud cost optimisation potential We’re one of Europe’s few certified FinOps Training Providers, as well as a certified Platform Provider and a certified Service Provider We’re known for delivering fun, engaging and interesting training that people enjoy attending – helping people build skills and knowledge that they actually apply when they’re back at their desks  </description>
     </item>
     
     <item>
       <title>Google Cloud Fundamentals: Core Infrastructure</title>
-      <link>./courses/google-cloud-training/fundamentals-core-insfrastructure/tba/</link>
+      <link>https://enchanting-llama-faa0bb.netlify.app/courses/google-cloud-training/fundamentals-core-insfrastructure/tba/</link>
       <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
       
-      <guid>./courses/google-cloud-training/fundamentals-core-insfrastructure/tba/</guid>
+      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/google-cloud-training/fundamentals-core-insfrastructure/tba/</guid>
       <description>About the Course This one-day instructor-led class provides an overview of Google Cloud Platform products and services. Through a combination of presentations, demos, and hands-on labs, participants learn the value of Google Cloud Platform and how to incorporate cloud-based solutions into business strategies.
-This course is intended for: Individuals planning to deploy applications and create application environments on Google Cloud Platform. Developers, systems operations professionals, and solution architects getting started with Google Cloud Platform.</description>
+This course is intended for:  Individuals planning to deploy applications and create application environments on Google Cloud Platform. Developers, systems operations professionals, and solution architects getting started with Google Cloud Platform.</description>
     </item>
     
     <item>
       <title>Kubernetes Basics</title>
-      <link>./courses/agnostic-training/general/</link>
+      <link>https://enchanting-llama-faa0bb.netlify.app/courses/agnostic-training/general/</link>
       <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
       
-      <guid>./courses/agnostic-training/general/</guid>
+      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/agnostic-training/general/</guid>
       <description>About the Course This course is both an introduction to Kubernetes, as well as an overview of containers and different managed orchestration tools. The course will help you understand the underlying architecture foundational objects of Kubernetes. The course will also familiarize you with managing and deploying containerized applications. This course will be delivered through a mix of instructor-led training (ILT) and hands-on labs.
-Duration: 2 days Price per person: €1,400, including labs What You Learn Basics of Kubernetes and deploying and managing containerized apps Storage and networking within Kubernetes Monitoring and logging your application and containers Security within Kubernetes Prerequisites for the course Linux administration skills Basic understanding of containers Agenda Day One Review of Containers and Orchestration Deployment of Applications Deploy new Releases Day Two Networking Storage Logging and Monitoring Security </description>
+ Duration: 2 days Price per person: €1,400, including labs  What You Learn  Basics of Kubernetes and deploying and managing containerized apps Storage and networking within Kubernetes Monitoring and logging your application and containers Security within Kubernetes  Prerequisites for the course  Linux administration skills Basic understanding of containers  Agenda Day One  Review of Containers and Orchestration Deployment of Applications Deploy new Releases  Day Two  Networking Storage Logging and Monitoring Security  </description>
+    </item>
+    
+    <item>
+      <title>AWS Cloud Practitioner Essentials</title>
+      <link>https://enchanting-llama-faa0bb.netlify.app/courses/aws/cloud-practitioner-essentials/virtual/september-12th-2022/</link>
+      <pubDate>Sat, 01 Aug 2020 12:55:56 +0600</pubDate>
+      
+      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/aws/cloud-practitioner-essentials/virtual/september-12th-2022/</guid>
+      <description>About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
+Dates &amp;amp; Location October 13th 2022
+09:00-17:00 EEST
+Virtual - Online Session
+Course Price Virtual campaign price EUR 770.00 (excl VAT).
+Regular price EUR 890.00 (excl VAT).
+Language The course will be taught in English.</description>
     </item>
     
   </channel>

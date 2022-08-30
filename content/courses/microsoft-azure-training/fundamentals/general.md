@@ -10,7 +10,7 @@ course_time: Or contact us to set up a dedicated session
 apply_url : "/contact"
 # course fee
 fee : TBA
-button_text: "To Be Announced Or Contact Us"
+button_text: "Contact Us"
 ---
 
 #### About the Course

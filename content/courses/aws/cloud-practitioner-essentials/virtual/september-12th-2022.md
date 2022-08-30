@@ -19,13 +19,6 @@ button_text: "Buy Now"
 ### About the Course
 On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
 
-### Dates & Location
-
-October 13th 2022
-
-09:00-17:00 EEST
-
-Virtual - Online Session
 
 ### Course Price 
 

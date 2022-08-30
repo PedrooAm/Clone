@@ -9,7 +9,7 @@ course_time: 9:00am – 2:00pm (CET)
 # apply payment url
 apply_url : "#"
 # course fee
-fee : "1.699,00"
+fee : "1,699.00"
 # course thumbnail
 image: "images/courses/aws.jpg"
 button_text: "Buy Now"
@@ -46,7 +46,7 @@ Tech leaders like Head of Infrastructure, Head of Cloud Centre of Excellence, CT
 * How showbacks and chargebacks work
 * Various stakeholders’ roles and responsibilities in cloud cost optimisation 
 
-![](https://nordcloud.com/wp-content/uploads/2020/03/nordcloud_web_square-25-1.jpg#right)
+![](https://nordcloud.com/wp-content/uploads/2020/03/nordcloud_web_square-25-1.jpg#floatright)
 
 #### Agenda
 

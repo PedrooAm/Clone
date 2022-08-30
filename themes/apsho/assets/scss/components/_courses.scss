@@ -1,4 +1,4 @@
-.blog {
+.blog1 {
   margin-top: -150px;
   padding-bottom: 100px;
   @include mobile {
@@ -143,7 +143,8 @@
         padding: 30px;
       }
       img {
-        max-width: 100%;
+        max-width: 300px !important;
+        float: right;
         margin-bottom: 30px;
         border-radius: 20px;
       }
@@ -254,6 +255,8 @@ img[src$='#center']
 img[src$='#floatleft']
 {
     float:left;
+    width: 300px !important;
+    max-width: 300px !important;
     margin: 0.7rem;      /* this margin is totally up to you */
     /* whatever else styles you fancy here */
 }
@@ -261,6 +264,8 @@ img[src$='#floatleft']
 img[src$='#floatright']
 {
     float:right;
+    width: 300px !important;
+    max-width: 300px !important;
     margin: 0.7rem;      /* this margin is totally up to you */
     /* whatever else styles you fancy here */
 }

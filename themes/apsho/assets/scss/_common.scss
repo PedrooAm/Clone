@@ -134,3 +134,12 @@ blog-post-thumb.smallimg {
 section#team {
   padding-bottom: 100px !important;
 }
+.blog-single-post img {
+  max-width: 300px !important;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.blog-single-post ul li {
+    margin-bottom: 0px !important;
+}

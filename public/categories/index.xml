@@ -2,9 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Deep Dives | Cloud training with a difference.</title>
-    <link>./categories/</link>
+    <link>https://enchanting-llama-faa0bb.netlify.app/categories/</link>
     <description>Recent content in Categories on Deep Dives | Cloud training with a difference.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="./categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://enchanting-llama-faa0bb.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
