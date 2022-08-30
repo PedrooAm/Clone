@@ -71,8 +71,8 @@ The course will be taught in English.
 
 ![](https://nordcloud.com/wp-content/uploads/2020/03/nordcloud_web_square-39-1.jpg#right)
 
-### Agenda
 
+### Agenda
 #### Day One
 
 - Introduction to Amazon Web Services

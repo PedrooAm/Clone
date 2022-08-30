@@ -3,7 +3,7 @@
 <section class="page-header">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-8">
+      <div class="col-lg-12 col-md-6">
         <h1>{{ .Title }}</h1>
         <p>
           {{ .Params.description }}
@@ -12,37 +12,35 @@
     </div>
   </div>
 </section>
-
 <section class="blog">
   <div class="container">
     <div class="row">
-      {{ range (.Paginator 24).Pages }}
-        <div class="col-lg-3 col-md-6">
+      {{ range (.Paginator 12).Pages }}
+        <div class="col-lg-12 col-md-6">
           <article class="blog-post-item">
-            <div class="blog-post-content courses-list">
-              <div class="blog-post-thumb smallimg">
-                <a href="{{ .Permalink }}">
-                  <img src="{{ .Params.courseThumb | absURL }}" alt="blog-thumb"
-                /></a>
+            <div class="course_img">
+              <a href="{{ .Permalink }}">
+                <img class="course_img" src="{{ .Params.courseThumb | absURL }}" alt="blog-thumb"
+              /></a>
+            </div>
+            <div>
+              <h4>
+                  <a href="{{ .Permalink }}"
+                    >{{ .Title }}</a
+                  >
+                </h4>
+              <div class="meta">
+                <span><b>DATE </b>{{ .Params.course_date }}</span>
+              </br>
+                <span><b>TIME </b>{{ .Params.course_time }}</span>  
+              </br> 
+                <span><b>LOCATION </b>{{ .Params.location }}</span>
+              </br> 
+                <span><b>PRICE </b>{{ .Params.fee }}</span>
+              </br> 
+                <a target="_blank" href="{{ .Params.Apply_url | safeURL }}" class="btn btn-sm btn-primary-filled small-btn">Buy Now
+                </a>
               </div>
-              <h2>
-                <a href="{{ .Permalink }}"
-                  >{{ .Title }}</a
-                >
-              </h2>
-              <div class="post-author">
-                <div class="meta">
-                  <span><b>DATE: </b>{{ .Params.course_date }}</span>
-                </br>
-                  <span><b>TIME/DURATION: </b>{{ .Params.course_time }}</span>  
-                </br> 
-                  <span><b>LOCATION: </b>{{ .Params.location }}</span>
-                </br> </br>
-                  {{ .Params.fee }}</span>
-                </br> </br> 
-                  <a target="_blank" href="{{ .Params.Apply_url | safeURL }}" class="btn btn-sm btn-primary-filled small-btn">{{ .Params.button_text }}
-                  </a>
-                </div>
               </div>
             </div>
           </article>
@@ -73,5 +71,5 @@
     </div>
   </div>
 </section>
-
+{{ partial "terms.html" . }}
 {{ end }}
