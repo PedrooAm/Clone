@@ -4,6 +4,9 @@ languageCode = "en-us"
 title = "Deep Dives | Cloud training with a difference."
 theme = "apsho"
 
+# URL Params
+[permalinks]
+uglyUrl = false
 
 # Navigation Bar
 [[menu.main]]
