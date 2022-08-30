@@ -11,11 +11,11 @@ uglyUrl = false
 # Navigation Bar
 [[menu.main]]
     name = "Home"
-    url = "/#hero"
+    url = "#hero"
     weight = 1
 [[menu.main]]
     name = "About"
-    url = "/#feature"
+    url = "#feature"
     weight = 2
 [[menu.main]]
     name = "Courses"
