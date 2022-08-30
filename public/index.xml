@@ -6,27 +6,87 @@
     <description>Recent content on Deep Dives | Cloud training with a difference.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Aug 2022 15:10:11 +0600</lastBuildDate><atom:link href="./index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jan 2021 20:18:07 +0600</lastBuildDate><atom:link href="./index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AWS Cloud Practitioner Essentials</title>
-      <link>./courses/aws-cloud-practitioner-essentials-sep12-copy/</link>
-      <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
+      <title>AWS IAM Not*</title>
+      <link>./blog/aws-iam-not/</link>
+      <pubDate>Sat, 02 Jan 2021 20:18:07 +0600</pubDate>
       
-      <guid>./courses/aws-cloud-practitioner-essentials-sep12-copy/</guid>
-      <description>This course is for individuals who seek an overall understanding of the Amazon Web Services (AWS) Cloud, independent of specific technical roles.
-About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
-Dates &amp;amp; Location October 13th 2022</description>
+      <guid>./blog/aws-iam-not/</guid>
+      <description>Sometimes writing AWS IAM policies gets confusing. Especially if our policy authoring is reactive in nature instead of following a proactive permissions strategy.
+Wow — this is complicated! Additionally some of the documentation and courseware suggest doing both allow and deny-statements.
+What how?
+Well the Amazon S3: Limits managing to a specific S3 Bucket example in the IAM User Guide shows the idea.
+{ &amp;#34;Version&amp;#34;: &amp;#34;2012-10-17&amp;#34;, &amp;#34;Statement&amp;#34;: [ { &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;, &amp;#34;Action&amp;#34;: &amp;#34;s3:*&amp;#34;, &amp;#34;Resource&amp;#34;: [ &amp;#34;arn:aws:s3:::bucket-name&amp;#34;, &amp;#34;arn:aws:s3:::bucket-name/*&amp;#34; ] }, { &amp;#34;Effect&amp;#34;: &amp;#34;Deny&amp;#34;, &amp;#34;NotAction&amp;#34;: &amp;#34;s3:*&amp;#34;, &amp;#34;NotResource&amp;#34;: [ &amp;#34;arn:aws:s3:::bucket-name&amp;#34;, &amp;#34;arn:aws:s3:::bucket-name/*&amp;#34; ] } ] } So here we’re allowing all S3 access on to a particular bucket and its contents, and then denying all other actions (for all other services!</description>
     </item>
     
     <item>
       <title>AWS Cloud Practitioner Essentials</title>
-      <link>./courses/aws-cloud-practitioner-essentials-sep12/</link>
+      <link>./courses/aws/cloud-practitioner-essentials/virtual/october-13th-2022/</link>
       <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
       
-      <guid>./courses/aws-cloud-practitioner-essentials-sep12/</guid>
-      <description>This course is for individuals who seek an overall understanding of the Amazon Web Services (AWS) Cloud, independent of specific technical roles.
-About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
-Dates &amp;amp; Location October 13th 2022</description>
+      <guid>./courses/aws/cloud-practitioner-essentials/virtual/october-13th-2022/</guid>
+      <description>About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
+Dates &amp;amp; Location October 13th 2022
+09:00-17:00 EEST
+Virtual - Online Session
+Course Price Virtual campaign price EUR 770.00 (excl VAT).
+Regular price EUR 890.00 (excl VAT).
+Language The course will be taught in English.</description>
+    </item>
+    
+    <item>
+      <title>AWS Cloud Practitioner Essentials</title>
+      <link>./courses/aws/cloud-practitioner-essentials/virtual/september-12th-2022/</link>
+      <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
+      
+      <guid>./courses/aws/cloud-practitioner-essentials/virtual/september-12th-2022/</guid>
+      <description>About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
+Dates &amp;amp; Location October 13th 2022
+09:00-17:00 EEST
+Virtual - Online Session
+Course Price Virtual campaign price EUR 770.00 (excl VAT).
+Regular price EUR 890.00 (excl VAT).
+Language The course will be taught in English.</description>
+    </item>
+    
+    <item>
+      <title>AWS Technical Essentials</title>
+      <link>./courses/aws/technical-essentials/aws-technical-essentials/</link>
+      <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
+      
+      <guid>./courses/aws/technical-essentials/aws-technical-essentials/</guid>
+      <description>About the Course AWS Technical Essentials introduces you to essential AWS services and common solutions. The course covers the fundamental AWS concepts related to compute, database, storage, networking, monitoring, and security. You will start working in AWS through hands-on course experiences. The course covers the concepts necessary to increase your understanding of AWS services, so that you can make informed decisions about solutions that meet business requirements. Throughout the course, you will gain information on how to build, compare, and apply highly available, fault tolerant, scalable, and cost-effective cloud solutions.</description>
+    </item>
+    
+    <item>
+      <title>FinOps Certified Practitioner</title>
+      <link>./courses/finops-training/certified-practitioner/virtual/11-12-october-2022/</link>
+      <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
+      
+      <guid>./courses/finops-training/certified-practitioner/virtual/11-12-october-2022/</guid>
+      <description>About the Course This course is an introduction to FinOps fundamentals. It’s ideal for people in a range of business, finance and technology roles, helping build your skills and credibility for driving cost savings from cloud.
+This course is intended for: Cloud budget owners FinOps practitioners like FinOps Analysts, Directors of Cloud Optimisation, Cloud Operations Managers and Cloud Cost Optimisation Data Analysts Engineering roles like Principal Systems Engineers, Cloud Architects, Service Delivery Managers, Engineering Managers, Platform Engineering Directors, Senior Enterprise Architects (EA) and EA Leaders IT Programme and Portfolio Management Leaders Tech leaders like Head of Infrastructure, Head of Cloud Centre of Excellence, CTO and CIO Finance and procurement people like Technology Procurement Managers, Financial Planning Managers and Analysts, Cloud Cost Optimisation Managers and Financial Business Advisors Finance leaders like Head of IT Finance and CFO of IT Course Outline Live (virtual) 2-day, instructor-led workshop (10 hours total) Lead instructor is a real-world practising FinOps leader, supported by 1 to 2 facilitators Interactive approach, featuring group discussions and live activities using Zoom breakout rooms.</description>
+    </item>
+    
+    <item>
+      <title>FinOps Certified Practitioner</title>
+      <link>./courses/finops-training/certified-practitioner/virtual/january-2023/</link>
+      <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
+      
+      <guid>./courses/finops-training/certified-practitioner/virtual/january-2023/</guid>
+      <description>About the Course This course is an introduction to FinOps fundamentals. It’s ideal for people in a range of business, finance and technology roles, helping build your skills and credibility for driving cost savings from cloud.
+This course is intended for: Cloud budget owners FinOps practitioners like FinOps Analysts, Directors of Cloud Optimisation, Cloud Operations Managers and Cloud Cost Optimisation Data Analysts Engineering roles like Principal Systems Engineers, Cloud Architects, Service Delivery Managers, Engineering Managers, Platform Engineering Directors, Senior Enterprise Architects (EA) and EA Leaders IT Programme and Portfolio Management Leaders Tech leaders like Head of Infrastructure, Head of Cloud Centre of Excellence, CTO and CIO Finance and procurement people like Technology Procurement Managers, Financial Planning Managers and Analysts, Cloud Cost Optimisation Managers and Financial Business Advisors Finance leaders like Head of IT Finance and CFO of IT Course Outline Live (virtual) 2-day, instructor-led workshop (10 hours total) Lead instructor is a real-world practising FinOps leader, supported by 1 to 2 facilitators Interactive approach, featuring group discussions and live activities using Zoom breakout rooms.</description>
+    </item>
+    
+    <item>
+      <title>How to create a serverless URL shortener using Amazon S3</title>
+      <link>./blog/how-create-serverless-url-shortener-using-amazon-s3/</link>
+      <pubDate>Mon, 06 Jan 2020 20:18:07 +0600</pubDate>
+      
+      <guid>./blog/how-create-serverless-url-shortener-using-amazon-s3/</guid>
+      <description>Let’s admit it. We access more and more of the information we need in our daily activities using URLs. These URLs have become longer and more cryptic over time but that’s ok since we simply click on them.
+However, sometimes we need to communicate those URLs in a non-internset-native way. For me this has happened during training classes as well as when writing a book. I want the class to download a piece of source code, but the GitHub project file URL is way too long to be correctly retyped by the attendees.</description>
     </item>
     
     <item>
@@ -35,7 +95,9 @@ Dates &amp;amp; Location October 13th 2022</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>./privacy/</guid>
-      <description>It is apsho’s policy to respect your privacy regarding any information we may collect while operating our website. This Privacy Policy applies to apsho.com (hereinafter, “us”, “we”, or “apsho.com”). We respect your privacy and are committed to protecting personally identifiable information you may provide us through the Website. We have adopted this privacy policy (“Privacy Policy”) to explain what information may be collected on our Website, how we use this information, and under what circumstances we may disclose the information to third parties.</description>
+      <description>At Deep Dives, accessible from https://deepdives.eu/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Deep Dives and how we use it.
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
+This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Deep Dives.</description>
     </item>
     
   </channel>

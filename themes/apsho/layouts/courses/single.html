@@ -4,24 +4,20 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h2>
-          {{ .Title }}
-        </h2>
         <div class="post-meta">
           <ul>
             <li>
-              <img src="{{ .Params.authorThumb | absURL }}" alt="author-thumb" />
-            </li>
-            <li>
-              <h5>
-                {{ .Params.author }}
-              </h5>
-            </li>
-            <li>
-              {{ .PublishDate.Format "January 2, 2006" }}
+              <img src="{{ .Params.courseThumb | absURL }}" alt="author-thumb" />
             </li>
           </ul>
         </div>
+        <h2>
+          {{ .Title }}
+        </h2>
+        <p>
+          {{ .Description}}
+        </p>
+
       </div>
     </div>
   </div>
@@ -32,11 +28,38 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <article class="blog-single-post">
+          <div class="post-author">
+            <div class="meta">
+              <span><b>DATE: </b>{{ .Params.course_date }}</span>
+            </br>
+              <span><b>TIME: </b>{{ .Params.course_time }}</span>  
+            </br> 
+              <span><b>LOCATION: </b>{{ .Params.location }}</span>
+            </br> 
+              <span><b>PRICE: </b>{{ .Params.fee }}</span>
+            </br> 
+          </br> 
+            </div>
+          </div>
           {{ .Content }}
-        </article>
+          <div class="meta">
+            <span><b>DATE: </b>{{ .Params.course_date }}</span>
+          </br>
+            <span><b>TIME: </b>{{ .Params.course_time }}</span>  
+          </br> 
+            <span><b>LOCATION: </b>{{ .Params.location }}</span>
+          </br> 
+            <span><b>PRICE: </b>{{ .Params.fee }}</span>
+          </br> 
+        </br> 
+        <a target="_blank" href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary-filled">{{ .Params.button_text }}
+        </a>    
+          </div>
+         
+          </article>
       </div>
     </div>
   </div>
 </section>
-
+{{ partial "terms.html" . }}
 {{ end }}

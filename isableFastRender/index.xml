@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Dives | Cloud training with a difference.</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Deep Dives | Cloud training with a difference.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Aug 2022 15:10:11 +0600</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AWS Cloud Practitioner Essentials</title>
+      <link>//localhost:1313/courses-copy/aws-cloud-practitioner-essentials-sep12/</link>
+      <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
+      
+      <guid>//localhost:1313/courses-copy/aws-cloud-practitioner-essentials-sep12/</guid>
+      <description>This course is for individuals who seek an overall understanding of the Amazon Web Services (AWS) Cloud, independent of specific technical roles.
+About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
+Dates &amp;amp; Location October 13th 2022</description>
+    </item>
+    
+    <item>
+      <title>AWS Cloud Practitioner Essentials</title>
+      <link>//localhost:1313/courses/aws-cloud-practitioner-essentials-sep12/</link>
+      <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
+      
+      <guid>//localhost:1313/courses/aws-cloud-practitioner-essentials-sep12/</guid>
+      <description>This course is for individuals who seek an overall understanding of the Amazon Web Services (AWS) Cloud, independent of specific technical roles.
+About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
+Dates &amp;amp; Location October 13th 2022</description>
+    </item>
+    
+    <item>
+      <title>How to create a serverless URL shortener using Amazon S3</title>
+      <link>//localhost:1313/blog/how-create-serverless-url-shortener-using-amazon-s3/</link>
+      <pubDate>Mon, 06 Jan 2020 20:18:07 +0600</pubDate>
+      
+      <guid>//localhost:1313/blog/how-create-serverless-url-shortener-using-amazon-s3/</guid>
+      <description>Let’s admit it. We access more and more of the information we need in our daily activities using URLs. These URLs have become longer and more cryptic over time but that’s ok since we simply click on them.
+However, sometimes we need to communicate those URLs in a non-internset-native way. For me this has happened during training classes as well as when writing a book. I want the class to download a piece of source code, but the GitHub project file URL is way too long to be correctly retyped by the attendees.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/courses/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/courses/404/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy &amp; Policy</title>
+      <link>//localhost:1313/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/privacy/</guid>
+      <description>It is apsho’s policy to respect your privacy regarding any information we may collect while operating our website. This Privacy Policy applies to apsho.com (hereinafter, “us”, “we”, or “apsho.com”). We respect your privacy and are committed to protecting personally identifiable information you may provide us through the Website. We have adopted this privacy policy (“Privacy Policy”) to explain what information may be collected on our Website, how we use this information, and under what circumstances we may disclose the information to third parties.</description>
+    </item>
+    
+  </channel>
+</rss>

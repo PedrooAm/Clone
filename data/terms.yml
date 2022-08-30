@@ -1,0 +1,21 @@
+---
+enable: true
+title: Booking Course Terms & Conditions
+description: Frequently Asked Questions for Booking Course Process
+termsItem:
+  - question: Cancelattion & Payment Policy
+    answer: All prices are net prices. VAT will be added to the price. You have the right to cancel your registration free of charge up until 15 days prior to the event. Nordcloud holds the right to cancel the event 14 days prior to the event, in which case all paid seats will be refunded. A final event confirmation message will be sent to all registrants 14 days prior to the event. No refunds will be paid after the final event confirmation message has been sent. In case the event is cancelled a cancellation message will be sent.
+    dataTarget: One
+    show: show
+    
+  - question: Technical Requirements
+    answer: You must login with your own laptop device to class in order to participate. You are required to bring a device that meets the following requirements
+
+      *A notebook computer with internet connection
+
+      *Administrator access to the computer (if Windows, optional)
+      
+      *Chrome or Firefox (Internet Explorer will not work)
+
+    dataTarget: Two
+    show: 

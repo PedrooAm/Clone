@@ -1,32 +1,20 @@
 ---
 title: "AWS Cloud Practitioner Essentials"
+description : "An excellent starting point to get to know the AWS cloud and its products, services, and solutions - in just one day."
 date: 2020-09-01T12:57:56+06:00
 featureImage: images/courses/aws.jpg
-authorThumb: images/courses/norcloud.jpg
-location: Virtual
-Dates: September 12th 2022
-Time: 09:00-17:00 CEST
-
-description : "You will learn how to create buckets and edit their metadata, upload and download objects in different ways, change storage tiers, select locations, use encryption, access control with iam and/or acls, lifecycle management rules, retention policies and object holds, how to monitor GCS and how to calculate the costs of all operations."
+courseThumb: images/courses/aws.jpg
+location: Virtual | Online Session
+course_date: September 12th 2022
+course_time: 09:00-17:00 EEST
+# apply payment url
+apply_url : "https://www.stripe.com"
+# course fee
+fee : "500€"
 # course thumbnail
 image: "images/courses/aws.jpg"
-# taxonomy
-category: "Cloud Storage"
-# teacher
-team: "Johannes Verwijnen"
-# duration
-duration : "n/a Month"
-# weekly
-weekly : "05 hours"
-# course fee
-fee : "From: €"
-# apply url
-apply_url : "#"
-# type
-type: "course"
+button_text: "Buy Now"
 ---
-
-This course is for individuals who seek an overall understanding of the Amazon Web Services (AWS) Cloud, independent of specific technical roles.
 
 ### About the Course
 On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
@@ -49,7 +37,7 @@ Regular price EUR 890.00 (excl VAT).
 
 The course will be taught in English.
 
-### THIS COURSE IS INTENDED FOR:
+### This course is intended for:
 
 - Sales
 - Legal
@@ -59,7 +47,7 @@ The course will be taught in English.
 - AWS Academy students
 - Other IT-related professionals
 
-### COURSE OUTLINE
+### Course Outline
 
 - Gain a basic understanding of the AWS Cloud and core & application services.
 - Get your questions answered by our AWS certified trainer.
@@ -81,7 +69,7 @@ The course will be taught in English.
 - Define the core billing, account management, and pricing models
 - Explain how to use pricing tools to make cost-effective choices for AWS services
 
-![courses image](/images/courses/single-course-1.jpg)
+![](https://nordcloud.com/wp-content/uploads/2020/03/nordcloud_web_square-39-1.jpg#right)
 
 ### Agenda
 
