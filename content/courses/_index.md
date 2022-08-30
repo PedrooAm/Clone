@@ -1,5 +1,8 @@
 ---
 title: "Our Courses"
-date: 2022-08-29T15:10:11+06:00
-description: "Become an AWS cloud expert with our popular, practical training taught by people who live and breathe the cloud."
+draft: false
+# page title background image
+bg_image: ""
+# meta description
+description : "We strive for the best learning experience for our students instead of concentrating on certifications, our content is tailored for professional usage."
 ---

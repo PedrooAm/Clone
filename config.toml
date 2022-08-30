@@ -1,5 +1,5 @@
 # MAIN base
-baseURL = "/"
+baseURL = "./"
 languageCode = "en-us"
 title = "Deep Dives | Cloud training with a difference."
 theme = "apsho"
@@ -8,7 +8,7 @@ theme = "apsho"
 # Navigation Bar
 [[menu.main]]
     name = "Home"
-    url = "#hero"
+    url = "./#hero"
     weight = 1
 [[menu.main]]
     name = "About"
@@ -16,30 +16,33 @@ theme = "apsho"
     weight = 2
 [[menu.main]]
     name = "Courses"
-    url = "./courses"
+    url = "/courses"
     weight = 3
 [[menu.main]]
     name = "Team"
-    url = "#team"
+    url = "./#team"
     weight = 4
 [[menu.main]]
     name = "FAQ"
-    url = "#faq"
+    url = "./#faq"
     weight = 5
 [[menu.main]]
     name = "Blog"
-    URL = "https://blog.deepdives.eu/"
+    URL = "/blog"
     weight = 6
-    hrefTargetBlank = true
 
 # Footer Sitemap
 [[menu.sitemap]]
     name = "Home"
-    url = "#"
+    url = "./"
     weight = 1
 [[menu.sitemap]]
     name = "Courses"
     url = "/courses"
+    weight = 2
+[[menu.sitemap]]
+    name = "Blog"
+    url = "/blog"
     weight = 2
 [[menu.sitemap]]
     name = "Privacy & Policy"

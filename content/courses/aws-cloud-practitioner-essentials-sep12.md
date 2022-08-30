@@ -11,7 +11,7 @@ description : "You will learn how to create buckets and edit their metadata, upl
 # course thumbnail
 image: "images/courses/aws.jpg"
 # taxonomy
-category: "Cloud Storage"
+category: "Virtual"
 # teacher
 team: "Johannes Verwijnen"
 # duration
@@ -19,11 +19,11 @@ duration : "n/a Month"
 # weekly
 weekly : "05 hours"
 # course fee
-fee : "From: €"
+fee : "500€"
 # apply url
-apply_url : "#"
+apply_url : "https://www.stripe.com"
 # type
-type: "course"
+type: "teste"
 ---
 
 This course is for individuals who seek an overall understanding of the Amazon Web Services (AWS) Cloud, independent of specific technical roles.
@@ -80,8 +80,6 @@ The course will be taught in English.
 - Articulate the financial benefits of the AWS Cloud for an organization’s cost management
 - Define the core billing, account management, and pricing models
 - Explain how to use pricing tools to make cost-effective choices for AWS services
-
-![courses image](/images/courses/single-course-1.jpg)
 
 ### Agenda
 

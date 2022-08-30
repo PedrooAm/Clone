@@ -154,3 +154,32 @@
     transform: scale(1.04);
   }
 }
+
+
+.btn.btn-whitecolor-filled {
+  color: $text-color !important;
+  background-color: $white !important;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: $primary-font;
+  box-shadow: 0px 8px 20px rgba(63,63,63, 0.3);
+  transition: 0.3s $site-ease;
+  text-transform: uppercase;
+  &:hover {
+    transform: scale(1.04);
+  }
+}
+
+a.btn.btn-whitecolor-filled {
+  color: $text-color !important;
+  background-color: $white !important;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: $primary-font;
+  box-shadow: 0px 8px 20px rgba(63,63,63, 0.3);
+  transition: 0.3s $site-ease;
+  text-transform: uppercase;
+  &:hover {
+    transform: scale(1.04);
+  }
+}

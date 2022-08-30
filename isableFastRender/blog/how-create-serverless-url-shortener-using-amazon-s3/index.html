@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <title>How to create a serverless URL shortener using Amazon S3</title>
+
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Themify -->
+  <link rel="stylesheet" href="//localhost:1313/themify/themify.css">
+
+  <!-- Critical CSS -->
+  
+  <link href="//localhost:1313/scss/critical.min.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="//localhost:1313/images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="//localhost:1313/images/favicon.png" type="image/x-icon" />
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=%23"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '#');
+  </script>
+	
+</head>
+
+  <body>
+    <nav class="main-nav navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand" href="//localhost:1313/">
+      <img
+        class="logo-main"
+        src="//localhost:1313/images/logo.png"
+        alt="Deep Dives"
+      />
+    </a>
+    <!-- Toogle Button -->
+    <button
+      class="navbar-toggler collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#mainNav"
+    >
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      
+      
+      <ul class="navbar-nav ml-auto">
+      
+        <li class="nav-item">
+          <a href="//localhost:1313/#hero" class="nav-link ">Home</a>
+        </li>
+      
+        <li class="nav-item">
+          <a href="//localhost:1313/#feature" class="nav-link ">About</a>
+        </li>
+      
+        <li class="nav-item">
+          <a href="//localhost:1313//courses" class="nav-link ">Courses</a>
+        </li>
+      
+        <li class="nav-item">
+          <a href="//localhost:1313/#team" class="nav-link ">Team</a>
+        </li>
+      
+        <li class="nav-item">
+          <a href="//localhost:1313/#faq" class="nav-link ">FAQ</a>
+        </li>
+      
+        <li class="nav-item">
+          <a href="//localhost:1313//blog" class="nav-link ">Blog</a>
+        </li>
+      
+      </ul>
+      <div class="account-list list-inline">
+        <li class="list-inline-item">
+          <a href="//localhost:1313/contact" class="btn btn-sm btn-violate">
+            Get in touch
+          </a>
+        </li>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <div id="content">
+      
+
+<section class="page-header blog-single-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>
+          How to create a serverless URL shortener using Amazon S3
+        </h2>
+        <div class="post-meta">
+          <ul>
+            <li>
+              <img src="//localhost:1313/images/team/johannes.jpeg" alt="author-thumb" />
+            </li>
+            <li>
+              <h5>
+                Johannes Verjwijnen
+              </h5>
+            </li>
+            <li>
+              January 6, 2020
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <article class="blog-single-post">
+          <p>Let’s admit it. We access more and more of the information we need in our daily activities using URLs. These URLs have become longer and more cryptic over time but that’s ok since we simply click on them.</p>
+<p><img src="https://miro.medium.com/max/1400/0*zxY_8kAkQKBnO2FO#center" alt="Photo by Steve Johnson on UnsplashUnsplash"></p>
+<p>However, sometimes we need to communicate those URLs in a non-internset-native way. For me this has happened during training classes as well as when writing a book. I want the class to download a piece of source code, but the GitHub project file URL is way too long to be correctly retyped by the attendees. Or maybe I want to refer to an online post in the book but printing a very long URL doesn’t make sense.</p>
+<p>That’s why we’ve used URL shorteners for quite a while now. Unfortunately, they have their downsides — they may be funded through advertisement sales or offer a freemium version of the product. The features you actually need are diverse; your own domain name, the possibility to customise the URL (instead of being assigned a random string), some come to a surprise to you later on (like the possibility to redirect a shortened URL as the original target has moved).</p>
+<p>So why not create your own URL shortener? Now note that I mostly dabble with serverless managed services on AWS for a living so I’m immediately thinking of the following combination:</p>
+<ul>
+<li>API Gateway to handle the requests — just creating a proxy integration to Lambda should suffice.</li>
+<li>Lambda to lookup the redirect URL and return the actual HTTP 301 response redirecting the browser.</li>
+<li>DynamoDB to work as storage for the Lambda function.</li>
+</ul>
+<p>I could even run the code using Lambda@Edge and then cache the DynamoDB responses for even better performance!</p>
+<p>But… even though that would make a great walkthrough on how Lambda and API Gateway work, it seems a bit overkill for just a URL shortener. Is there anything else?</p>
+<p>Did you know that S3 can redirect requests? Of course, you did, at least if you’ve used the static website hosting feature of S3 — the option is right there in configuration screen. You might be surprised that instead of redirecting requests to another object in S3 — or another bucket — you can actually enter any other URL as the redirect target. Additionally the object containing the redirection (the short URL) can be of size 0 bytes (meaning you only pay for storage of the metadata).</p>
+<p>So how would we create a shortener like this? My example is going to be without any fancy admin UIs etc, we’re going to create and administer the redirects via the AWS CLI only.</p>
+<p>First of course you need to create a bucket. You should name your bucket after the website you’re hosting, so in my case that would be links.verwijnen.fi.</p>
+<p>aws s3 mb s3://links.verwijnen.fi
+Then we need to enable static website hosting, making the default document ‘default’ and the error document ‘error’.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">aws</span> <span style="color:#a6e22e">s3</span> <span style="color:#a6e22e">website</span> <span style="color:#a6e22e">s3</span>:<span style="color:#f92672">//</span><span style="color:#a6e22e">links</span>.<span style="color:#a6e22e">verwijnen</span>.<span style="color:#a6e22e">fi</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">index</span><span style="color:#f92672">-</span><span style="color:#a6e22e">document</span> <span style="color:#66d9ef">default</span> <span style="color:#f92672">--</span><span style="color:#66d9ef">error</span><span style="color:#f92672">-</span><span style="color:#a6e22e">document</span> <span style="color:#66d9ef">error</span></code></pre></div>
+<p>We also need to set proper permissions to the content of the bucket. There are several ways to do this, and my favorite is to create a bucket policy allowing everyone GetObject access to the bucket. First we create the policy document (I use the AWS Policy Generator for this as I’m hopeless when trying to remember syntaxes), I’m saving it to policy.json:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{
+  <span style="color:#e6db74">&#34;Id&#34;</span>: <span style="color:#e6db74">&#34;Policy1578299737219&#34;</span>,
+  <span style="color:#e6db74">&#34;Version&#34;</span>: <span style="color:#e6db74">&#34;2012-10-17&#34;</span>,
+  <span style="color:#e6db74">&#34;Statement&#34;</span>: [
+    {
+      <span style="color:#e6db74">&#34;Sid&#34;</span>: <span style="color:#e6db74">&#34;Public access to URL shortener bucket&#34;</span>,
+      <span style="color:#e6db74">&#34;Action&#34;</span>: [
+        <span style="color:#e6db74">&#34;s3:GetObject&#34;</span>
+      ],
+      <span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Allow&#34;</span>,
+      <span style="color:#e6db74">&#34;Resource&#34;</span>: <span style="color:#e6db74">&#34;arn:aws:s3:::links.verwijnen.fi/*&#34;</span>,
+      <span style="color:#e6db74">&#34;Principal&#34;</span>: <span style="color:#e6db74">&#34;*&#34;</span>
+    }
+  ]
+}</code></pre></div>
+<h5 id="then-we-set-that-json-file-as-the-bucket-policy">Then we set that JSON file as the bucket policy:</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">aws</span> <span style="color:#a6e22e">s3api</span> <span style="color:#a6e22e">put</span><span style="color:#f92672">-</span><span style="color:#a6e22e">bucket</span><span style="color:#f92672">-</span><span style="color:#a6e22e">policy</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">bucket</span> <span style="color:#a6e22e">links</span>.<span style="color:#a6e22e">verwijnen</span>.<span style="color:#a6e22e">fi</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">policy</span> <span style="color:#a6e22e">file</span>:<span style="color:#f92672">//</span><span style="color:#a6e22e">policy</span>.<span style="color:#a6e22e">json</span></code></pre></div>
+<p>Then we create a DNS record so that requests to our hostname links.verwijnen.fi get served by the hosted bucket hostname links.
+verwijnen.fi.s3-website.eu-north-1.amazonaws.com using Route 53. This is easiest to do via the web console, where we can selected the Hosted Zone we want to edit and then click on “Create Record Set”, edit the name as “links”, leave the type as A and just set Alias to “Yes”. We can then see our bucket in the target options. The routing policy should stay as simple and target health evaluation as “No”.</p>
+<p>Now we can create a few redirects, namely the two from above.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">aws</span> <span style="color:#a6e22e">s3api</span> <span style="color:#a6e22e">put</span><span style="color:#f92672">-</span><span style="color:#a6e22e">object</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">bucket</span> <span style="color:#a6e22e">links</span>.<span style="color:#a6e22e">verwijnen</span>.<span style="color:#a6e22e">fi</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">website</span><span style="color:#f92672">-</span><span style="color:#a6e22e">redirect</span><span style="color:#f92672">-</span><span style="color:#a6e22e">location</span> <span style="color:#a6e22e">http</span>:<span style="color:#75715e">//verwijnen.fi/ --key default
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">aws</span> <span style="color:#a6e22e">s3api</span> <span style="color:#a6e22e">put</span><span style="color:#f92672">-</span><span style="color:#a6e22e">object</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">bucket</span> <span style="color:#a6e22e">links</span>.<span style="color:#a6e22e">verwijnen</span>.<span style="color:#a6e22e">fi</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">website</span><span style="color:#f92672">-</span><span style="color:#a6e22e">redirect</span><span style="color:#f92672">-</span><span style="color:#a6e22e">location</span> <span style="color:#a6e22e">http</span>:<span style="color:#f92672">//</span><span style="color:#a6e22e">verwijnen</span>.<span style="color:#a6e22e">fi</span><span style="color:#f92672">/</span><span style="color:#ae81ff">404.</span><span style="color:#a6e22e">png</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">key</span> <span style="color:#66d9ef">error</span></code></pre></div>
+<p>So now we have the default document redirecting to my website and the error document redirecting to a cute 404 image.</p>
+<p>This can be tested by going to <a href="http://links.verwijnen.fi/">http://links.verwijnen.fi/</a> and <a href="http://links.verwijnen.fi/somethingerroneous">http://links.verwijnen.fi/somethingerroneous</a>.</p>
+<h4 id="lets-also-create-a-redirect-to-this-blogpost">Let’s also create a redirect to this blogpost</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">aws</span> <span style="color:#a6e22e">s3api</span> <span style="color:#a6e22e">put</span><span style="color:#f92672">-</span><span style="color:#a6e22e">object</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">bucket</span> <span style="color:#a6e22e">links</span>.<span style="color:#a6e22e">verwijnen</span>.<span style="color:#a6e22e">fi</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">website</span><span style="color:#f92672">-</span><span style="color:#a6e22e">redirect</span><span style="color:#f92672">-</span><span style="color:#a6e22e">location</span> <span style="color:#a6e22e">https</span>:<span style="color:#f92672">//</span><span style="color:#a6e22e">medium</span>.<span style="color:#a6e22e">com</span><span style="color:#f92672">/</span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">verwijnen</span><span style="color:#f92672">/</span><span style="color:#a6e22e">serverless</span><span style="color:#f92672">-</span><span style="color:#a6e22e">url</span><span style="color:#f92672">-</span><span style="color:#a6e22e">shortener</span><span style="color:#f92672">-</span><span style="color:#a6e22e">with</span><span style="color:#f92672">-</span><span style="color:#a6e22e">amazon</span><span style="color:#f92672">-</span><span style="color:#a6e22e">s3</span><span style="color:#f92672">-</span><span style="color:#a6e22e">ffa38ea2a9d6</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">key</span> <span style="color:#a6e22e">s3url</span></code></pre></div>
+<p>and now it should be available at <a href="http://links.verwijnen.fi/s3url!">http://links.verwijnen.fi/s3url!</a>]</p>
+
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    </div>
+    <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="footer-subscribe-title">
+          <h2>Subscribe and Stay Updated</h2>
+        </div>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <form action="#" class="footer-subscribe-form">
+          <div class="from-group">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Enter Your E-mail">
+              <div class="subscribe">
+                <button class="btn btn-subscribe" type="submit">
+                  <span class="btn-area">
+                    Subscribe
+                  </span>
+                  <svg class="icon-left" xmlns="http://www.w3.org/2000/svg" width="16.317" height="15.323"
+                    viewBox="0 0 16.317 15.323">
+                    <g data-name="Group 1167">
+                      <g data-name="Group 1166">
+                        <path data-name="Path 1349"
+                          d="M.004 5.359a.7.7 0 00.587.693l6.091 1.609L.591 9.27a.7.7 0 00-.587.693v4.656a.7.7 0 00.206.5.726.726 0 00.119.1.7.7 0 00.675.044l14.911-6.958a.7.7 0 000-1.274L1.004.066a.7.7 0 00-1 .637zm13.952 2.3"
+                          fill="#fff" />
+                      </g>
+                    </g>
+                  </svg>
+                  <svg class="icon-center" xmlns="http://www.w3.org/2000/svg" width="16.317" height="15.323"
+                    viewBox="0 0 16.317 15.323">
+                    <g data-name="Group 1167">
+                      <g data-name="Group 1166">
+                        <path data-name="Path 1349"
+                          d="M.004 5.359a.7.7 0 00.587.693l6.091 1.609L.591 9.27a.7.7 0 00-.587.693v4.656a.7.7 0 00.206.5.726.726 0 00.119.1.7.7 0 00.675.044l14.911-6.958a.7.7 0 000-1.274L1.004.066a.7.7 0 00-1 .637zm13.952 2.3"
+                          fill="#fff" />
+                      </g>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-4">
+        <div class="footer-description">
+          <img width="250px" src="images/logo-white.png" alt="logo">
+          <p>
+            All right reserved
+              </br>
+              Copyright © Deep Dives 2022
+          </p>
+          <ul class="footer-description-social">
+            <li>
+              <a href="https://www.facebook.com/pg/#"><i class="ti-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/#"><i class="ti-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="footer-widget">
+          <h4>Sitemap</h4>
+          <div class="footer-widget-list">
+            <ul>
+              
+                
+                  <li><a href="//localhost:1313/">Home</a></li>
+              
+                  <li><a href="//localhost:1313/blog">Blog</a></li>
+              
+                  <li><a href="//localhost:1313/courses">Courses</a></li>
+              
+                  <li><a href="//localhost:1313/privacy">Privacy &amp; Policy</a></li>
+              
+                  <li><a href="//localhost:1313/contact">Contact</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="footer-widget">
+          <h4>Address</h4>
+          
+          <div class="footer-widget-list">
+            <ul>
+              <li><a href="mailto:info@deepdives.eu"><i class="ti-email"></i>info@deepdives.eu</a></li>
+              <li><p><i class="ti-pin"></i>Deep Dives oy, PO Box 333, 00121 Helsinki, Finland</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<link href="//localhost:1313/scss/non-critical.min.css" rel="stylesheet" />
+
+<script src="//localhost:1313/js/vendor.min.js"></script>
+
+<script src="//localhost:1313/js/form-handler.min.js"></script>
+
+<script src="//localhost:1313/js/script.min.js"></script>
+  </body>
+</html>

@@ -6,17 +6,10 @@
     <description>Recent content on Deep Dives | Cloud training with a difference.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Aug 2022 15:10:11 +0600</lastBuildDate><atom:link href="./index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AWS Cloud Practitioner Essentials</title>
-      <link>./courses/aws-cloud-practitioner-essentials-sep12-copy/</link>
-      <pubDate>Tue, 01 Sep 2020 12:57:56 +0600</pubDate>
-      
-      <guid>./courses/aws-cloud-practitioner-essentials-sep12-copy/</guid>
-      <description>This course is for individuals who seek an overall understanding of the Amazon Web Services (AWS) Cloud, independent of specific technical roles.
-About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
-Dates &amp;amp; Location October 13th 2022</description>
-    </item>
+    <lastBuildDate>Mon, 29 Aug 2022 15:10:11 +0600</lastBuildDate>
+    
+	<atom:link href="./index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>AWS Cloud Practitioner Essentials</title>
@@ -27,6 +20,16 @@ Dates &amp;amp; Location October 13th 2022</description>
       <description>This course is for individuals who seek an overall understanding of the Amazon Web Services (AWS) Cloud, independent of specific technical roles.
 About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
 Dates &amp;amp; Location October 13th 2022</description>
+    </item>
+    
+    <item>
+      <title>How to create a serverless URL shortener using Amazon S3</title>
+      <link>./blog/how-create-serverless-url-shortener-using-amazon-s3/</link>
+      <pubDate>Mon, 06 Jan 2020 20:18:07 +0600</pubDate>
+      
+      <guid>./blog/how-create-serverless-url-shortener-using-amazon-s3/</guid>
+      <description>Let’s admit it. We access more and more of the information we need in our daily activities using URLs. These URLs have become longer and more cryptic over time but that’s ok since we simply click on them.
+However, sometimes we need to communicate those URLs in a non-internset-native way. For me this has happened during training classes as well as when writing a book. I want the class to download a piece of source code, but the GitHub project file URL is way too long to be correctly retyped by the attendees.</description>
     </item>
     
     <item>

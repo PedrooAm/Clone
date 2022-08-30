@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>./</loc>
     <lastmod>2022-08-29T15:10:11+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./courses/</loc>
     <lastmod>2022-08-29T15:10:11+06:00</lastmod>
-  </url><url>
-    <loc>./courses/aws-cloud-practitioner-essentials-sep12-copy/</loc>
-    <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./courses/aws-cloud-practitioner-essentials-sep12/</loc>
     <lastmod>2020-09-01T12:57:56+06:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>./blog/</loc>
+    <lastmod>2020-08-31T20:33:11+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>./blog/how-create-serverless-url-shortener-using-amazon-s3/</loc>
+    <lastmod>2020-01-06T20:18:07+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>./categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./contact/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./privacy/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./tags/</loc>
   </url>
+  
 </urlset>
