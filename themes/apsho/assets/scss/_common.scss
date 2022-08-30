@@ -119,12 +119,18 @@ a {
 img.course_img {
   width: 180px;
 }
+
 section#terms {
   padding-bottom: 100px !important;
 }
-.blog-post-thumb.smallimg {
+
+blog-post-thumb.smallimg {
   width: 30%;
   display: inline-flex;
   float: inline-start;
   /* text-align: center; */
+}
+
+section#team {
+  padding-bottom: 100px !important;
 }

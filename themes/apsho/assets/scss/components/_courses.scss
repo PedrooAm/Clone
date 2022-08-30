@@ -5,7 +5,7 @@
     margin-top: -100px;
   }
   &-post {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     @include mobile {
       padding-bottom: 50px;
     }
@@ -34,7 +34,7 @@
     &-content {
       padding: 0 8px;
       h2 {
-        line-height: 28px;
+        line-height: 22px;
         margin-bottom: 10px;
         a {
           font-size: 20px;
@@ -49,11 +49,11 @@
         }
       }
       .post-author {
-        display: flex;
+        display: inline-flex;
         align-items: center;
         .thumb {
-          width: 46px;
-          height: 46px;
+          width: 70px;
+          height: 70px;
           border-radius: 50%;
           overflow: hidden;
           margin-right: 15px;
@@ -73,6 +73,7 @@
           }
         }
       }
+      
     }
     .see-all-post {
       margin-top: 40px;
@@ -236,6 +237,11 @@
     }
   }
 }
+
+.list {
+  display: flex !important;
+}
+
 img[src$='#center']
 {
     display: block;
