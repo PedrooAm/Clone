@@ -47,8 +47,7 @@ This course is suitable for IT personnel who are just beginning to work with Azu
 Students in this course will gain confidence to take other role-based courses and certifications, such as Azure Administrator. This course provides an Azure pass and optional lab environment.
 
 This course combines lecture, demonstrations, and hands-on labs. This course will also help prepare someone for the AZ-900 exam.
-
-![](https://nordcloud.com/wp-content/uploads/2020/02/annie-spratt-QckxruozjRg-unsplash.png#right)
+![](https://nordcloud.com/wp-content/uploads/2020/02/annie-spratt-QckxruozjRg-unsplash.png#floatright)
 
 #### Delivery Method
 

@@ -1,0 +1,8 @@
+---
+title: "AZ-104: Microsoft Azure Administrator"
+draft: false
+# page title background image
+bg_image: ""
+# meta description
+description : "This course provides students with the key knowledge to help prepare for Exam AZ-104."
+---
