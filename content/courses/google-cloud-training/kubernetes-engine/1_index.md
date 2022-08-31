@@ -1,6 +1,6 @@
 ---
 title: "Getting started with Google Kubernetes Engine"
-draft: false
+courseThumb: images/courses/google-cloud.svg
 # page title background image
 bg_image: ""
 # meta description

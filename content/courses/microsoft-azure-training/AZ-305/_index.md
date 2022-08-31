@@ -1,6 +1,6 @@
 ---
 title: "AZ-305: Designing Microsoft Azure Infrastructure Solutions"
-draft: false
+courseThumb: images/courses/azure.png
 # page title background image
 bg_image: ""
 # meta description

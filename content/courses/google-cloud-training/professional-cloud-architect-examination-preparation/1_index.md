@@ -1,6 +1,6 @@
 ---
 title: "Preparing for the Professional Cloud Architect Examination"
-draft: false
+courseThumb: images/courses/google-cloud.svg
 # page title background image
 bg_image: ""
 # meta description

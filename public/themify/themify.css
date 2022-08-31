@@ -253,7 +253,7 @@
   content: "\e64b";
 }
 .ti-check:before {
-  content: "\e64c";
+  content: "✓";
 }
 .ti-check-box:before {
   content: "\e64d";

@@ -1,6 +1,6 @@
 ---
 title: "AZ-400: Designing and Implementing Microsoft DevOps solutions"
-draft: false
+courseThumb: images/courses/azure.png
 # page title background image
 bg_image: ""
 # meta description

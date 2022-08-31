@@ -1,6 +1,7 @@
 ---
 title: "Courses by Deep Dives"
 draft: false
+courseThumb: images/courses/deep-dives.png
 # page title background image
 bg_image: ""
 # meta description

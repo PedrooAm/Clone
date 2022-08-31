@@ -1,6 +1,6 @@
 ---
 title: "AZ-104: Microsoft Azure Administrator"
-draft: false
+courseThumb: images/courses/azure.png
 # page title background image
 bg_image: ""
 # meta description

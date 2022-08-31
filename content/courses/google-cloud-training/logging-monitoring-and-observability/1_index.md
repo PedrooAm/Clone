@@ -1,6 +1,6 @@
 ---
 title: "Logging, Monitoring and Observability in Google Cloud"
-draft: false
+courseThumb: images/courses/google-cloud.svg
 # page title background image
 bg_image: ""
 # meta description

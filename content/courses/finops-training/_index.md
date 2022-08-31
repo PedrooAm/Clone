@@ -1,6 +1,6 @@
 ---
 title: "FinOps Training"
-draft: false
+courseThumb: images/courses/finops-practitioner.png
 # page title background image
 bg_image: ""
 # meta description

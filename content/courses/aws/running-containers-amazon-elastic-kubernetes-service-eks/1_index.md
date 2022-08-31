@@ -1,6 +1,6 @@
 ---
 title: "Running Containers on Amazon Elastic Kubernetes Service (Amazon EKS)"
-draft: false
+courseThumb: images/courses/aws.jpg
 # page title background image
 bg_image: ""
 # meta description

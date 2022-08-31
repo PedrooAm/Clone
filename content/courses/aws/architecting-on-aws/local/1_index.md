@@ -1,6 +1,6 @@
 ---
-title: "Architecting on AWS | Virtual Courses"
-draft: false
+title: "Architecting on AWS | Local Courses"
+courseThumb: images/courses/aws.jpg
 # page title background image
 bg_image: ""
 # meta description

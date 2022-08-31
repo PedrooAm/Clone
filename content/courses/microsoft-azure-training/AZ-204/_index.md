@@ -1,6 +1,6 @@
 ---
 title: "AZ-204: Developing Solutions for Microsoft Azure"
-draft: false
+courseThumb: images/courses/azure.png
 # page title background image
 bg_image: ""
 # meta description

@@ -1,6 +1,6 @@
 ---
 title: "Google Cloud Training"
-draft: false
+courseThumb: images/courses/google-cloud.svg
 # page title background image
 bg_image: ""
 # meta description

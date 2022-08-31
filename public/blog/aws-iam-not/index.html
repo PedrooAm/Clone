@@ -136,27 +136,27 @@
 <p>Wow — this is complicated! Additionally some of the documentation and courseware suggest doing both allow and deny-statements.</p>
 <p>What how?</p>
 <p>Well the <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_s3_deny-except-bucket.html">Amazon S3: Limits managing to a specific S3 Bucket</a> example in the IAM User Guide shows the idea.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{
-    <span style="color:#e6db74">&#34;Version&#34;</span>: <span style="color:#e6db74">&#34;2012-10-17&#34;</span>,
-    <span style="color:#e6db74">&#34;Statement&#34;</span>: [
-        {
-            <span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Allow&#34;</span>,
-            <span style="color:#e6db74">&#34;Action&#34;</span>: <span style="color:#e6db74">&#34;s3:*&#34;</span>,
-            <span style="color:#e6db74">&#34;Resource&#34;</span>: [
-                <span style="color:#e6db74">&#34;arn:aws:s3:::bucket-name&#34;</span>,
-                <span style="color:#e6db74">&#34;arn:aws:s3:::bucket-name/*&#34;</span>
-            ]
-        },
-        {
-            <span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Deny&#34;</span>,
-            <span style="color:#e6db74">&#34;NotAction&#34;</span>: <span style="color:#e6db74">&#34;s3:*&#34;</span>,
-            <span style="color:#e6db74">&#34;NotResource&#34;</span>: [
-                <span style="color:#e6db74">&#34;arn:aws:s3:::bucket-name&#34;</span>,
-                <span style="color:#e6db74">&#34;arn:aws:s3:::bucket-name/*&#34;</span>
-            ]
-        }
-    ]
-}</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Version&#34;</span>: <span style="color:#e6db74">&#34;2012-10-17&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Statement&#34;</span>: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Allow&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;Action&#34;</span>: <span style="color:#e6db74">&#34;s3:*&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;Resource&#34;</span>: [
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;arn:aws:s3:::bucket-name&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;arn:aws:s3:::bucket-name/*&#34;</span>
+</span></span><span style="display:flex;"><span>            ]
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Deny&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;NotAction&#34;</span>: <span style="color:#e6db74">&#34;s3:*&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;NotResource&#34;</span>: [
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;arn:aws:s3:::bucket-name&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;arn:aws:s3:::bucket-name/*&#34;</span>
+</span></span><span style="display:flex;"><span>            ]
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
 <p>So here we’re allowing all S3 access on to a particular bucket and its contents, and then denying all other actions (for all other services!) and for all other resources.</p>
 <p>So how do the NotAction and NotResource -elements work? If we take a look at the policy evaluation order we can see that the second step is “Evaluate all applicable policies”. Thus if a request comes in from a principal that has the above policy attached for reading an item from a DynamoDB table the above policy will be evaluated into a deny.</p>
 <ul>
@@ -166,42 +166,42 @@
 </ul>
 <p>But wait a minute, wasn’t the policy evaluation logic deny by default anyway? Yes it is, and this kind of policy is only needed if you are feeling that you might (accidentally) give someone permissions they shouldn’t have.</p>
 <p>There are more sane ways to use NotAction with Allow to, for example, allow full control except deletion.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Allow&#34;</span>,
-<span style="color:#e6db74">&#34;NotAction&#34;</span>: <span style="color:#e6db74">&#34;s3:DeleteBucket&#34;</span>,
-<span style="color:#e6db74">&#34;Resource&#34;</span>: <span style="color:#e6db74">&#34;arn:aws:s3:::*&#34;</span>,</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Allow&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;NotAction&#34;</span>: <span style="color:#e6db74">&#34;s3:DeleteBucket&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;Resource&#34;</span>: <span style="color:#e6db74">&#34;arn:aws:s3:::*&#34;</span>,</span></span></code></pre></div>
 <p>This is way easier than having to explicitly list all S3-actions. But doesn’t that allow all other services? Would a DynamoDB table read be allowed with this kind of policy? Well no, as the resource in that request would be a DynamoDB-table instead of a S3-bucket.</p>
 <p>Similarly we can restrict access to a particular resource by using the Deny-NotResource -pattern.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Deny&#34;</span>,
-<span style="color:#e6db74">&#34;Action&#34;</span>: <span style="color:#e6db74">&#34;s3:*&#34;</span>,
-<span style="color:#e6db74">&#34;NotResource&#34;</span>: [
-    <span style="color:#e6db74">&#34;arn:aws:s3:::OurBucket&#34;</span>,
-    <span style="color:#e6db74">&#34;arn:aws:s3:::OurBucket/*&#34;</span>
-]</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Deny&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;Action&#34;</span>: <span style="color:#e6db74">&#34;s3:*&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;NotResource&#34;</span>: [
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;arn:aws:s3:::OurBucket&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;arn:aws:s3:::OurBucket/*&#34;</span>
+</span></span><span style="display:flex;"><span>]</span></span></code></pre></div>
 <p>So here we are denying all S3-actions to all resources except one bucket and its contents. Note that this alone will not give access to that particular resource as an explicit allow is required somewhere else.</p>
 <p>Combining Allow and NotResource becomes terribly frightening. Think of an innocent-looking policy like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Allow&#34;</span>,
-<span style="color:#e6db74">&#34;Action&#34;</span>: <span style="color:#e6db74">&#34;*&#34;</span>,
-<span style="color:#e6db74">&#34;NotResource&#34;</span>: [
-    <span style="color:#e6db74">&#34;arn:aws:s3:::SecretBucket&#34;</span>,
-    <span style="color:#e6db74">&#34;arn:aws:s3:::SecretBucket/*&#34;</span>
-]</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Allow&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;Action&#34;</span>: <span style="color:#e6db74">&#34;*&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;NotResource&#34;</span>: [
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;arn:aws:s3:::SecretBucket&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;arn:aws:s3:::SecretBucket/*&#34;</span>
+</span></span><span style="display:flex;"><span>]</span></span></code></pre></div>
 <p>So we’re probably trying to give full access to S3 except for a particular bucket and its contents here. However, we have just given all possible permissions (except access to that bucket) using this policy. And this doesn’t restrict anything as we also gave the permission to change policies themselves :D</p>
 <p>The motivation for this blogpost came from a discussion on what NotAction: * or NotResource: * would do. There is a common misconception that they would invert the Effect which naturally isn’t true.</p>
 <p>Remember the way that the evaluation logic works. It would first evaluate all applicable policies, thus any request with any action wouldn’t match the NotAction: *-pattern and any request with any resource wouldn’t match the NotResource: *-pattern. Thus they are practically no-ops.</p>
 <p>I tested it (for completeness). Created a user with the inline policy:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{
-    <span style="color:#e6db74">&#34;Version&#34;</span>: <span style="color:#e6db74">&#34;2012-10-17&#34;</span>,
-    <span style="color:#e6db74">&#34;Statement&#34;</span>: [
-        {
-            <span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Deny&#34;</span>,
-            <span style="color:#e6db74">&#34;Action&#34;</span>: <span style="color:#e6db74">&#34;s3:*&#34;</span>,
-            <span style="color:#e6db74">&#34;NotResource&#34;</span>: <span style="color:#e6db74">&#34;*&#34;</span>
-        }
-    ]
-}</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Version&#34;</span>: <span style="color:#e6db74">&#34;2012-10-17&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Statement&#34;</span>: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Deny&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;Action&#34;</span>: <span style="color:#e6db74">&#34;s3:*&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;NotResource&#34;</span>: <span style="color:#e6db74">&#34;*&#34;</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
 <p>And then tried to list buckets</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">duvin</span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">iMac</span> <span style="color:#960050;background-color:#1e0010">~</span> <span style="color:#f92672">%</span> <span style="color:#a6e22e">aws</span> <span style="color:#a6e22e">s3</span> <span style="color:#a6e22e">ls</span>  <span style="color:#f92672">--</span><span style="color:#a6e22e">profile</span> <span style="color:#a6e22e">notresource</span>
-<span style="color:#a6e22e">An</span> <span style="color:#66d9ef">error</span> <span style="color:#a6e22e">occurred</span> (<span style="color:#a6e22e">AccessDenied</span>) <span style="color:#a6e22e">when</span> <span style="color:#a6e22e">calling</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">ListBuckets</span> <span style="color:#a6e22e">operation</span>: <span style="color:#a6e22e">Access</span> <span style="color:#a6e22e">Denied</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">duvin</span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">iMac</span> <span style="color:#960050;background-color:#1e0010">~</span> <span style="color:#f92672">%</span> <span style="color:#a6e22e">aws</span> <span style="color:#a6e22e">s3</span> <span style="color:#a6e22e">ls</span>  <span style="color:#f92672">--</span><span style="color:#a6e22e">profile</span> <span style="color:#a6e22e">notresource</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">An</span> <span style="color:#66d9ef">error</span> <span style="color:#a6e22e">occurred</span> (<span style="color:#a6e22e">AccessDenied</span>) <span style="color:#a6e22e">when</span> <span style="color:#a6e22e">calling</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">ListBuckets</span> <span style="color:#a6e22e">operation</span>: <span style="color:#a6e22e">Access</span> <span style="color:#a6e22e">Denied</span></span></span></code></pre></div>
 <p>As anticipated. If we add an Allow-permission that allow works normally as if the deny wouldn’t exist.</p>
 
         </article>

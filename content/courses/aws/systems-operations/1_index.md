@@ -1,6 +1,6 @@
 ---
 title: "Systems Operations on AWS"
-draft: false
+courseThumb: images/courses/aws.jpg
 # page title background image
 bg_image: ""
 # meta description

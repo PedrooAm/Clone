@@ -1,6 +1,6 @@
 ---
-title: "AWS Cloud Practitioner Essentials"
-draft: false
+title: "AWS Cloud Practitioner Essentials | Online Courses"
+courseThumb: images/courses/aws.jpg
 # page title background image
 bg_image: ""
 # meta description
