@@ -3,7 +3,7 @@ title: "Architecting on AWS"
 description : "Cloud requires a new way of thinking. This course aims to give you a comprehensive overview to AWS fundamentals, architectural design patterns, and how to build cloud solutions on AWS."
 featureImage: images/courses/aws.jpg
 courseThumb: images/courses/aws.jpg
-location: Virtual | Online Session
+location: Virtual
 course_date: September 19th - 21st 2022
 course_time: 09:00-17:00 EEST
 # apply payment url

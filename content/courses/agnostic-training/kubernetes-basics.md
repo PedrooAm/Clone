@@ -3,14 +3,14 @@ title: "Kubernetes Basics"
 description : "A tailored introduction to Kubernetes."
 date: 2020-09-01T12:57:56+06:00
 courseThumb: images/courses/deep-dives.png
-location: Virtual | Online Session
+location: Virtual
 course_date: To Be Announced
 course_time: 2 Days
 # apply payment url
 apply_url : "/contact"
 # course fee
 fee : "1,400.00"
-button_text: "Contact to Book"
+button_text: "Contact Us"
 ---
 
 #### About the Course

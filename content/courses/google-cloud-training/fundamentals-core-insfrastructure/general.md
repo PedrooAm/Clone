@@ -3,7 +3,7 @@ title: "Google Cloud Fundamentals: Core Infrastructure"
 description : "This course includes activities that will allow you to test new skills and apply knowledge through hands-on lab activities. Google Cloud Fundamentals: Core Infrastructure will be delivered through a mix of instructor-led training, demos and hands-on labs."
 date: 2020-09-01T12:57:56+06:00
 courseThumb: images/courses/google-cloud.svg
-location: Virtual | Online Session
+location: Virtual
 course_date: To Be Announced
 course_time: Or contact us to set up a dedicated session
 # apply payment url
@@ -48,7 +48,7 @@ Complete hands-on exercises to reinforce your learning and understanding.
 * 0 Welcome
 * 1 Introducing Google Cloud
 * 2 Resources and Access in the Cloud
-* 3 Virtual Machines and Networks in the Cloud
+* 3 VirtualMachines and Networks in the Cloud
 * 4 Storage in the Cloud
 * 5 Containers in the Cloud
 * 6 Applications in the Cloud

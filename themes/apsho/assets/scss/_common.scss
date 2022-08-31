@@ -143,3 +143,23 @@ section#team {
 .blog-single-post ul li {
     margin-bottom: 0px !important;
 }
+
+.info {
+  display: inline-block;
+  grid-auto-flow: column;
+  @include desktop {
+  }
+}
+
+.lista {
+  margin-left: auto;
+  @include desktop {
+  }
+}
+.space {
+  margin-right: 20px;
+  margin-left: 20px;
+  @include desktop {
+    display: table-column-group;
+}
+}

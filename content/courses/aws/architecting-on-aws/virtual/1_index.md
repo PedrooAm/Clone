@@ -1,5 +1,5 @@
 ---
-title: "Architecting on AWS | Virtual Courses"
+title: "Architecting on AWS | VirtualCourses"
 courseThumb: images/courses/aws.jpg
 # page title background image
 bg_image: ""

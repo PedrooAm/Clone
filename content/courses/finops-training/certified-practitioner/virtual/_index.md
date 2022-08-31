@@ -1,5 +1,5 @@
 ---
-title: "FinOps Training - Certified Practitioner | Virtual Courses"
+title: "FinOps Training - Certified Practitioner | VirtualCourses"
 courseThumb: images/courses/finops-practitioner.png
 # page title background image
 bg_image: ""

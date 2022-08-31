@@ -17,35 +17,26 @@
   <div class="container">
     <div class="row">
       {{ range (.Paginator 12).Pages }}
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-12 col-md-12">
           <article class="blog-post-item">
             <div class="blog-post-content">
               <div class="post-author">
-                <div class="thumb meta">
-                  <img src="{{ .Params.courseThumb | absURL }}" alt="author-thumb" />
-                </div>
+                <img class="thumb meta" src="{{ .Params.courseThumb | absURL }}" alt="author-thumb" />
                 <div class="meta">
                   <h3>
-                    <a href="{{ .Permalink }}"
-                      >{{ .Params.course_date }}</a
-                    >
+                    <a href="{{ .Permalink }}">{{ .Params.course_date }}</a>
                   </h3>
-                  <h2>
-                    <a href="{{ .Permalink }}"
-                      >{{ .Title }}</a
-                    >
-                  </h2>
-                  <div class="meta">
-                      <span><b>TIME </b>{{ .Params.course_time }}</span>  
-                      <br>
-                      <span><b>LOCATION </b>{{ .Params.location }}</span>
-                      <br>
-                      <span><b>PRICE </b>{{ .Params.fee }} € excl. VAT</span>
+                  <div class="info">
+                    <h2>
+                      <a href="{{ .Permalink }}">{{ .Title }}</a
+                      >
+                    </h2>
+                      <span>{{ .Params.course_time }}</span> <span class="space"> <b>|</b> </span> 
+                      <span>{{ .Params.location }}</span> <span class="space"> <b>|</b> </span> 
+                      <span>{{ .Params.fee }} € excl. VAT</span>
                   </div>
-                  <div class="meta">
-                  <br>
-                    <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-sm btn-primary-filled small-btn">{{ .Params.button_text }}</a>
-                 </div>
+                  </div>
+                  <div class="lista">                  <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-sm btn-primary-filled small-btn">{{ .Params.button_text }}</a>
                   </div>
               </div>
             </div>

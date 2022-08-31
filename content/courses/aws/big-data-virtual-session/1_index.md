@@ -1,5 +1,5 @@
 ---
-title: "Big Data on AWS, Virtual Session"
+title: "Big Data on AWS, VirtualSession"
 courseThumb: images/courses/aws.jpg
 # page title background image
 bg_image: ""

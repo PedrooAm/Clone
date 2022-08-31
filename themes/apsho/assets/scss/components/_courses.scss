@@ -1,4 +1,4 @@
-.blog1 {
+.courses {
   margin-top: -150px;
   padding-bottom: 100px;
   @include mobile {
@@ -49,7 +49,7 @@
         }
       }
       .post-author {
-        display: inline-flex;
+        display: flex;
         align-items: center;
         .thumb {
           width: 70px;

@@ -4,7 +4,7 @@ description : "An excellent starting point to get to know the AWS cloud and its 
 date: 2020-09-01T12:57:56+06:00
 featureImage: images/courses/aws.jpg
 courseThumb: images/courses/aws.jpg
-location: Virtual | Online Session
+location: Virtual
 course_date: October 31st 2022
 course_time: 09:00-17:00 EET
 # apply payment url

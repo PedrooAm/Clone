@@ -2,14 +2,14 @@
 title: "Cloud DevOps Training"
 description : "Your introduction to DevOps practices, processes and tooling in the cloud."
 courseThumb: images/courses/deep-dives.png
-location: Virtual | Online Session
+location: Virtual
 course_date: To Be Announced
 course_time: 1 Day
 # apply payment url
 apply_url : "/contact"
 # course fee
 fee : "5,100.00"
-button_text: "Contact to Book"
+button_text: "Contact Us"
 ---
 
 #### About the Course
