@@ -6,6 +6,7 @@
       <div class="row">
         <div class="col-12">
           <h2>{{ .Title }}</h2>
+          {{ partial "breadcrumbs.html" . }}
           <p>
             Don't like forms send us an
             <a href="mailto:{{ .Site.Params.email }}">email</a>

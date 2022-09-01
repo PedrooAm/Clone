@@ -52,9 +52,9 @@
   }
 
   &:hover {
-    color: $white !important;
     border-color: $primary-color;
     background: $white;
+    color: #fff !important;
 
     span {
       transform: translateY(10px);
@@ -191,4 +191,7 @@ a.btn.btn-whitecolor-filled {
 a.small-btn {
   padding: 5px 25px;
   font-size: 14px;
+  &:hover {
+    color: white;
+  }
 }
