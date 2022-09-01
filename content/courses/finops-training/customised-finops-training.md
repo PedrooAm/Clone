@@ -4,7 +4,7 @@ description : "Get in-house FinOps training – for whole departments or specifi
 date: 2020-09-01T12:57:56+06:00
 courseThumb: images/courses/finops-custom.png
 location: TBA
-course_date: TBA
+course_date: To Be Announced
 course_time: TBA
 # apply payment url
 apply_url : "/contact"
