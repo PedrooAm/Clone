@@ -22,9 +22,8 @@ On this fundamental-level full day course you will learn about AWS Cloud concept
 
 ### Course Price 
 
-Virtual campaign price EUR 770.00 (excl VAT).
-
-Regular price EUR 890.00 (excl VAT).
+* Virtual campaign price EUR 770.00 (excl VAT).
+* Regular price EUR 890.00 (excl VAT).
 
 ### Language
 
