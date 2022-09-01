@@ -6,6 +6,8 @@
 
 {{ partial "feature.html" . }}
 
+{{ with .Site.GetPage "/courses" }}{{ .Title }}{{ .Content }}{{ end }}
+
 {{ partial "team.html" . }}
 
 {{ partial "video.html" . }}

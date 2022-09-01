@@ -62,6 +62,47 @@
   
 </section>
 
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+          <center><h2>Related Courses</h2></center>
+      </div>
+      <div class="col-lg-10 mx-auto">
+        <article class="blog-post-item">
+          {{ $related := (where (.Site.RegularPages.Related .) "Type" "in" site.Params.mainSections) }}
+
+          <div class="blog-post-content">
+            {{ range first 3  $related }}
+            <div class="post-author">
+              <img class="thumb meta" src="{{ .Params.courseThumb | absURL }}" alt="author-thumb" />
+              <div class="meta">
+                <h3>
+                  <a href="{{ .Permalink }}">{{ .Params.course_date }}</a>
+                </h3>
+                <div class="info">
+                  <h2>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a
+                    >
+                  </h2>
+                    <span>{{ .Params.course_time }}</span> <span class="space"> <b>|</b> </span> 
+                    <span>{{ .Params.location }}</span> <span class="space"> <b>|</b> </span> 
+                    <span>{{ .Params.fee }} € excl. VAT</span>
+                </div>
+                </div>
+                <div class="lista">                  <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary small-btn white">{{ .Params.button_text }}</a>
+                </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    {{ end }}
+    </div>
+    </div>
+  </div>
+  
+</section>
+
 
 {{ partial "terms.html" . }}
 {{ end }}
