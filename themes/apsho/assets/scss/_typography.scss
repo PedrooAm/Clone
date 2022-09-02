@@ -13,11 +13,29 @@ h3,
 h4,
 h5,
 h6 {
+  
   color: $text-color-dark;
   font-family: $primary-font;
   font-weight: 700;
   letter-spacing: 0.5px;
+  
+  background: linear-gradient(to right, #101E2A 20%, #093348 40%, #101E2A 60%, #101E2A 80%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 3s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
 }
+
 
 p {
   font-size: 16px;
