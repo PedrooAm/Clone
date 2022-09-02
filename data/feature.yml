@@ -9,8 +9,8 @@ checkItem:
 
 Title2nd: Training Services
 description2nd:
-image1: images/hero/intro-2.png
-image2: images/hero/intro.png
+image1: images/feature/intro-2.svg
+image2: images/feature/intro.svg
 checkItem1:
   - text: Instructor-for-hire services for authorized training partners for a daily fee (AWS/GCP/Azure)
   - text: Instructor-led training with our/custom materials for a per-participant fee
