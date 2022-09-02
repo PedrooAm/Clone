@@ -1,7 +1,7 @@
 ---
 title: "Running Containers on Amazon Elastic Kubernetes Service (Amazon EKS)"
 description : "Amazon EKS makes it easy for you to run Kubernetes on AWS without needing to install, operate, and maintain your own Kubernetes control plane. In this course, you will learn container management and orchestration for Kubernetes using Amazon EKS."
-featureImage: images/courses/aws.jpg
+draft: true
 courseThumb: images/courses/aws.jpg
 location: Virtual
 course_date: To Be Announced

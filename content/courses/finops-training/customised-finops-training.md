@@ -2,6 +2,7 @@
 title: "Customised FinOps Training"
 description : "Get in-house FinOps training – for whole departments or specific teams, with content tailored to your challenges and goals."
 date: 2020-09-01T12:57:56+06:00
+draft: true
 courseThumb: images/courses/finops-custom.png
 location: TBA
 course_date: To Be Announced

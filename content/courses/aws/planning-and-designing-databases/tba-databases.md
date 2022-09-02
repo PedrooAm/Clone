@@ -1,7 +1,7 @@
 ---
 title: "Planning and Designing Databases on AWS"
 description : "Learn the key features of AWS database services and how to choose the appropriate service to meet your application’s needs and requirements. Test your new skills and knowledge through a variety of practical exercises. This course will be delivered through a mix of instructor-led training (ILT) and hands-on labs."
-featureImage: images/courses/aws.jpg
+draft: true
 courseThumb: images/courses/aws.jpg
 location: Virtual
 course_date: To Be Announced

@@ -1,7 +1,7 @@
 ---
 title: "Security Engineering on AWS"
 description : "This course allows you to test new skills and apply knowledge to your working environment through a variety of practical exercises. This course will be delivered through a mix of instructor-led training (ILT) and hands-on labs."
-featureImage: images/courses/aws.jpg
+draft: true
 courseThumb: images/courses/aws.jpg
 location: Virtual
 course_date: October 4th – 6th 2022

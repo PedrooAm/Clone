@@ -1,6 +1,7 @@
 ---
 title: "Cloud DevOps Training"
 description : "Your introduction to DevOps practices, processes and tooling in the cloud."
+draft: true
 courseThumb: images/courses/deep-dives.png
 location: Virtual
 course_date: To Be Announced

@@ -1,7 +1,7 @@
 ---
 title: "Architecting with Google Cloud: Design and Process"
 description : "This course includes activities that will allow you to test new skills and apply knowledge through hands-on lab activities. Architecting with Google Cloud: Design and Process will be delivered through a mix of instructor-led training, demos and hands-on labs."
-date: 2020-09-01T12:57:56+06:00
+draft: true
 courseThumb: images/courses/google-cloud.svg
 location: Virtual
 course_date: To Be Announced

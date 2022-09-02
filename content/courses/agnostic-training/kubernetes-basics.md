@@ -2,6 +2,7 @@
 title: "Kubernetes Basics"
 description : "A tailored introduction to Kubernetes."
 date: 2020-09-01T12:57:56+06:00
+draft: true
 courseThumb: images/courses/deep-dives.png
 location: Virtual
 course_date: To Be Announced

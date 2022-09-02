@@ -1,7 +1,7 @@
 ---
 title: "Systems Operations on AWS"
 description : "This course teaches systems operators and anyone performing system operations functions how to install, configure, automate, monitor, secure, maintain and troubleshoot the services, networks, and systems on AWS necessary to support business applications."
-featureImage: images/courses/aws.jpg
+draft: true
 courseThumb: images/courses/aws.jpg
 location: Oslo
 course_date: September 4th - 6th 2022

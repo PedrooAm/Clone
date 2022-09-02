@@ -1,6 +1,7 @@
 ---
 title: "Cloud Basics Training"
 description : "A tailored introduction to the cloud way of thinking."
+draft: true
 courseThumb: images/courses/deep-dives.png
 location: Virtual
 course_date: To Be Announced

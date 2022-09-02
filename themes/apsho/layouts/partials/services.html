@@ -1,6 +1,6 @@
 {{ with .Site.Data.services }}
   {{ if .enable }}
-    <section id="service" class="service">
+    <section id="service" class="service_icons">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-12">
@@ -12,24 +12,17 @@
           </div>
           {{ $services := .services }}
           {{ range $services }}
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item-bg">
-                <div class="service-icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="140"
-                    height="140"
-                    viewBox="0 0 144.201 146.575"
-                  >
-                  </svg>
-                  <i class="{{ .icon }}"></i>
-                </div>
-                <div class="service-content">
-                  <h4>{{ .title }}</h4>
-                  <p>{{ .description }}</p>
-                </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service_icons-item">
+              <div class="box center">
+                <img src={{ .iconimage }} class="service-image center" />
+              </div>
+              <div class="service_icons-content">
+                <h4>{{ .title }}</h4>
+                <p>{{ .description }}</p>
               </div>
             </div>
+          </div>
           {{ end }}
         </div>
       </div>
