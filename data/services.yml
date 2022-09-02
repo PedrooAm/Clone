@@ -5,12 +5,12 @@ title: Cloud Training Services With a Difference
 services:
   - iconimage: images/service-icons/instructors.svg
     title: Experienced Instructors
-    description: All our instructors are pedagogically trained subject matter experts with extensive experience
-
-  - iconimage: images/service-icons/tailored-content.svg
-    title: Tailored Content
-    description: Instead of concentrating on certifications, our content is tailored for professional usage
+    description: All our instructors are pedagogically trained subject matter experts with extensive experience.
 
   - iconimage: images/service-icons/best-always.svg
     title: The Best, Always
-    description: We strive for the best learning experience for our students
+    description: We strive for the best learning experience for our students.
+    
+  - iconimage: images/service-icons/tailored-content.svg
+    title: Tailored Content
+    description: Instead of concentrating on certifications, our content is tailored for professional usage.
