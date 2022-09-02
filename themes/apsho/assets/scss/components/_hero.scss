@@ -33,6 +33,7 @@
   }
 
   &-content {
+    margin-right: 50px;
     &-subtitle {
       font-size: 14px;
       font-weight: 400;
@@ -85,7 +86,6 @@
   }
 
   &-image {
-    margin: -40px;
     img {
       max-width: 100%;
     }

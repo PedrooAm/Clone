@@ -13,13 +13,13 @@
   </div>
 </section>
 
-<section class="blog">
+<section class="course">
   <div class="container">
     <div class="row">
       {{ range (.Paginator 12).Pages }}
         <div class="col-lg-12 col-md-12">
-          <article class="blog-post-item">
-            <div class="blog-post-content">
+          <article class="course-post-item">
+            <div class="course-post-content">
               <div class="post-author">
                 <img class="thumb meta" src="{{ .Params.courseThumb | absURL }}" alt="author-thumb" />
                 <div class="meta">
@@ -36,7 +36,7 @@
                       <span>{{ .Params.fee }} € excl. VAT</span>
                   </div>
                   </div>
-                  <div class="lista">                  <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary small-btn white">{{ .Params.button_text }}</a>
+                  <div class="lista">                  <a href="{{ .Params.Apply_url | safeURL }}" class="btn small-btn">{{ .Params.button_text }}</a>
                   </div>
               </div>
             </div>
