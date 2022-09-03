@@ -223,6 +223,9 @@
           align-items: center;
           list-style: none;
           padding: 0;
+          @include mobile {
+            display: block;
+          }
           li {
             color: #fff;
             &:not(:last-child) {

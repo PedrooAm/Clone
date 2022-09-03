@@ -9,6 +9,7 @@ a {
     padding-top: 80px !important;
     @include mobile {
       margin-bottom: 0;
+      padding-top: 0px !important;
     }
 
     h2 {
@@ -74,7 +75,6 @@ a {
     }
     @include mobile {
       margin: 0px 0px 0;
-      padding: 120px 0 120px;
     }
     h1 {
       color: white !important;
@@ -122,6 +122,9 @@ img.course_img {
 
 section#terms {
   padding-bottom: 100px !important;
+  @include mobile {
+    padding-bottom: 20px !important;
+  }
 }
 
 blog-post-thumb.smallimg {
@@ -133,6 +136,9 @@ blog-post-thumb.smallimg {
 
 section#team {
   padding-bottom: 100px !important;
+  @include mobile {
+    padding-bottom: 20px !important;
+  }
 }
 .blog-single-post img {
   max-width: 300px !important;
@@ -177,24 +183,5 @@ li.breadcrumblist {
     padding: 5px;
     color: #ffffff;
     font-size: 12px;
-  }
-}
-
-#animation {
-  transform: translateY(150px);
-  animation: popup 10s 6.5s ease infinite;
-}
-@keyframes popup {
-  0% {
-    transform: translateY(150px);
-  }
-  34% {
-    transform: translateY(20px);
-  }
-  37% {
-    transform: translateY(150px);
-  }
-  100% {
-    transform: translateY(150px);
   }
 }

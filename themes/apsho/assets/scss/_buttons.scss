@@ -86,6 +86,7 @@
   }
   @include mobile {
     justify-content: center;
+    display: inline-flex;
   }
 
   i {
@@ -173,5 +174,8 @@
   &:hover {
     color: white;
     transform: scale(1.04);
+  }
+  @include mobile {
+    margin-top: 10px;
   }
 }
