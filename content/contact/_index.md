@@ -1,3 +1,3 @@
 ---
-title: Cloud Trainning with a Difference
+title: Cloud Trainning With A Difference
 ---

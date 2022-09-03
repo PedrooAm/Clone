@@ -48,7 +48,7 @@ uglyUrl = false
     url = "/blog"
     weight = 2
 [[menu.sitemap]]
-    name = "Privacy & Policy"
+    name = "Privacy Policy"
     url = "/privacy"
     weight = 3
 [[menu.sitemap]]
@@ -58,7 +58,7 @@ uglyUrl = false
 
 # Footer Address
 [params.address]
-address = "Deep Dives oy, PO Box 333, 00121 Helsinki, Finland"
+address = "Deep Dives Oy, PO Box 333, 00121 Helsinki, Finland"
 email = "info@deepdives.eu"
 
 # Footer Social
@@ -74,8 +74,8 @@ formspreeURL = "https://formspree.io/#"
 googleAnalytics = "#"
 
 # Footer
-footerTitle = "Subscribe and Stay Updated"
-copyright1 = "All right reserved"
+footerTitle = "Subscribe And Stay Updated"
+copyright1 = "All Rights Reserved"
 copyright2 = "Copyright © Deep Dives {year}"
 
 #contact

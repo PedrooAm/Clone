@@ -2,6 +2,7 @@
 title: "How to create a serverless URL shortener using Amazon S3"
 date: 2020-01-06T20:18:07+06:00
 featureImage: https://miro.medium.com/max/1400/0*zxY_8kAkQKBnO2FO
+description: "Let’s admit it. We access more and more of the information we need in our daily activities using URLs. These URLs have become longer and more cryptic over time but that’s ok since we simply click on them."
 author: Johannes Verjwijnen
 authorThumb: images/team/johannes.jpeg
 button_text: Original Source

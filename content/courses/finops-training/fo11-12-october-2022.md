@@ -2,7 +2,7 @@
 title: "FinOps Certified Practitioner"
 description : "This 2-day remote course is for people who want to learn FinOps best practices and become a certified practitioner."
 date: 2020-09-01T12:57:56+06:00
-courseThumb: images/courses/finops-practitioner.png
+courseThumb: images/courses/finops.jpg
 location: Virtual
 course_date: 11 - 12 October 2022
 course_time: 9:00am – 2:00pm (CET)

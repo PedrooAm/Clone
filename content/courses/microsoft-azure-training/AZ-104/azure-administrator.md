@@ -2,7 +2,7 @@
 title: "AZ-104: Microsoft Azure Administrator"
 description : "This course provides students with the key knowledge to help prepare for Exam AZ-104."
 draft: true
-courseThumb: images/courses/azure.png
+courseThumb: images/courses/azure.jpg
 location: Virtual
 course_date: To Be Announced
 course_time: TBA

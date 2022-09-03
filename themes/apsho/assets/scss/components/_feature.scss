@@ -109,6 +109,9 @@
           &:not(:last-child) {
             margin-bottom: 15px;
           }
+          @include mobile {
+            display: inline-block;
+          }
 
           i {
             width: 24px;

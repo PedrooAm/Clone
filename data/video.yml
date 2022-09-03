@@ -1,8 +1,8 @@
 ---
 enable: true
 comment1: Cloud Training With A Difference
-buttonName: View More
-button1text: Our Courses
-button2text: Visit Our Blog
-image: images/screenshots/sc-3.jpg
-video: https://www.youtube.com/watch?v=swnudbCnccs
+buttonName: View Our
+button1text: Courses
+button2text: Blog
+image: images/video/placeholder.jpg
+video: /images/video/video.mp4

@@ -2,6 +2,7 @@
 title: "AWS IAM Not*"
 date: 2021-01-02T20:18:07+06:00
 featureImage: https://miro.medium.com/max/4800/1*Ks7GuiPPa2pswNTuITHGSw.png
+description: "Sometimes writing AWS IAM policies gets confusing. Especially if our policy authoring is reactive in nature instead of following a proactive permissions strategy."
 author: Johannes Verjwijnen
 authorThumb: images/team/johannes.jpeg
 button_text: Original Source

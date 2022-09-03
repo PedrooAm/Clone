@@ -1,7 +1,7 @@
 .contact {
   padding-bottom: 100px;
   @include mobile {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
   &-form {
     border-radius: 10px;
