@@ -9,7 +9,7 @@ course_date: September 26th 2022
 course_time: 9:00-17:00 CEST
 payment_link : /contact
 price : Free of Charge - Promotion Campaign
-currency : €
+currency : 
 button_text : Sign Up
 ---
 
