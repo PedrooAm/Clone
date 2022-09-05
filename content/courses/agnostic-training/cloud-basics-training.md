@@ -1,16 +1,16 @@
 ---
-title: "Cloud Basics Training"
+title : "Cloud Basics Training"
 description : "A tailored introduction to the cloud way of thinking."
-draft: true
-courseThumb: images/courses/deepdives.jpg
-location: Virtual
-course_date: To Be Announced
-course_time: 5 Hours
-# apply payment url
-apply_url : "/contact"
-# course fee
-fee : "3,900.00"
-button_text: "Contact Us"
+courseId : ""
+courseThumb : "images/courses/deepdives.jpg"
+draft : "true"
+location : Virtual
+course_date : "To Be Announced"
+course_time : "5 Hours"
+payment_link : "/contact"
+price : "3,900.00"
+currency : "€"
+button_text : "Contact Us"
 ---
 
 #### About the Course

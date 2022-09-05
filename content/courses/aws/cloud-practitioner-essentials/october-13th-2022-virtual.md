@@ -1,20 +1,18 @@
 ---
-title: "AWS Cloud Practitioner Essentials"
+title : "AWS Cloud Practitioner Essentials"
 description : "An excellent starting point to get to know the AWS cloud and its products, services, and solutions - in just one day."
-date: 2020-09-01T12:57:56+06:00
-featureImage: images/courses/aws.jpg
-courseThumb: images/courses/aws.jpg
-location: Virtual
-course_date: October 13th 2022
-course_time: 09:00-17:00 EEST
-# apply payment url
-apply_url : "https://buy.stripe.com/test_28o8zJfawd8sh0Y000"
-# course fee
-fee : "890"
-# course thumbnail
-image: "images/courses/aws.jpg"
-button_text: "Buy Now"
+courseId : 
+courseThumb : images/courses/aws.jpg
+draft : false
+location : Virtual
+course_date : October 13th 2022
+course_time : 09:00-17:00 EEST
+payment_link : #
+price : 890.00
+currency : €
+button_text : Buy Now 
 ---
+
 
 ### About the Course
 On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.

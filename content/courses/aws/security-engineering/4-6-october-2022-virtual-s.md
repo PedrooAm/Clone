@@ -1,19 +1,18 @@
 ---
-title: "Security Engineering on AWS"
+title : "Security Engineering on AWS"
 description : "This course allows you to test new skills and apply knowledge to your working environment through a variety of practical exercises. This course will be delivered through a mix of instructor-led training (ILT) and hands-on labs."
-draft: true
-courseThumb: images/courses/aws.jpg
-location: Virtual
-course_date: October 4th – 6th 2022
-course_time: 09:00-17:00 EEST
-# apply payment url
-apply_url : "#"
-# course fee
-fee : "2,490.00"
-# course thumbnail
-image: "images/courses/aws.jpg"
-button_text: "Buy Now"
+courseId : 
+courseThumb : images/courses/aws.jpg
+draft : true
+location : Virtual
+course_date : October 4th – 6th 2022
+course_time : 09:00-17:00 EEST
+payment_link : #
+price : 2,490.00
+currency : €
+button_text : Buy Now 
 ---
+
 
 ### Developing on AWS, Helsinki - Virtual Session
 

@@ -1,18 +1,18 @@
 ---
 title: "AZ-900: Microsoft Azure Fundamentals"
 description : "This course will provide foundational-level knowledge of cloud services and how those services are provided with Microsoft Azure."
-date: 2020-09-01T12:57:56+06:00
-draft: true
-courseThumb: images/courses/azure.jpg
-location: Virtual
+courseId : ""
+courseThumb : "images/courses/azure.jpg"
+draft : true
+location : "Virtual"
 course_date: To Be Announced
-course_time: Or contact us to set up a dedicated session
-# apply payment url
-apply_url : "/contact"
-# course fee
-fee : TBA
-button_text: "Contact Us"
+course_time: ""
+payment_link : "/contact"
+price : TBA
+currency : 
+button_text : "Contact Us"
 ---
+
 
 #### About the Course
 

@@ -1,19 +1,18 @@
 ---
 title: "Advanced Architecting on AWS"
 description : "In this course, each module presents a scenario with an architectural challenge to be solved. You will examine available AWS services and features as solutions to the problem. You will gain insights by participating in problem-based discussions and learning about the AWS services that you could apply to meet the challenges."
-featureImage: images/courses/aws.jpg
-courseThumb: images/courses/aws.jpg
+courseId : 
+courseThumb : images/courses/aws.jpg
+draft : false
 location: Virtual
 course_date: September 13th – 15th 2022
 course_time: 09:00-17:00 CEST
-# apply payment url
-apply_url : "#"
-# course fee
-fee : "2,490.00"
-# course thumbnail
-image: "images/courses/aws.jpg"
-button_text: "Buy Now"
+payment_link : #
+price : 2,490.00
+currency : €
+button_text : Buy Now 
 ---
+
 
 ### Developing on AWS, Helsinki - Virtual Session
 

@@ -1,19 +1,18 @@
 ---
-title: "Systems Operations on AWS"
+title : "Systems Operations on AWS"
 description : "This course teaches systems operators and anyone performing system operations functions how to install, configure, automate, monitor, secure, maintain and troubleshoot the services, networks, and systems on AWS necessary to support business applications."
-draft: true
-courseThumb: images/courses/aws.jpg
-location: Oslo
-course_date: September 4th - 6th 2022
-course_time: 09:00-17:00 CEST
-# apply payment url
-apply_url : "#"
-# course fee
-fee : "2,490.00"
-# course thumbnail
-image: "images/courses/aws.jpg"
-button_text: "Buy Now"
+courseId : 
+courseThumb : images/courses/aws.jpg
+draft : true
+location : Virtual
+course_date : September 4th - 6th 2022
+course_time : 09:00-17:00 CEST
+payment_link : #
+price : 2,490.00
+currency : €
+button_text : Buy Now 
 ---
+
 
 ### Systems Operations on AWS, Stockholm - Virtual Session
 

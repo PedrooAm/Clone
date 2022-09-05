@@ -183,16 +183,16 @@
       }
       ul {
         padding: 0 0 0 20px;
-        margin: 0 0 40px;
+        margin: 0 0 20px;
         li {
           list-style: none;
           display: block;
           position: relative;
-          line-height: 28px;
+          line-height: 22px;
           font-size: 18px;
           padding-left: 30px;
-          width: 65%;
-          margin-bottom: 20px;
+          width: 100%;
+          margin-bottom: 18px;
           @include tablet {
             width: 100%;
           }

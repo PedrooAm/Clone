@@ -1,19 +1,18 @@
 ---
-title: "Deep Learning on AWS"
-description : "This course allows you to test new skills and apply knowledge to your working environment through a variety of practical exercises. This course will be delivered through a mix of instructor-led training (ILT) and hands-on labs"
-draft: true
-courseThumb: images/courses/aws.jpg
-location: Virtual
-course_date: To Be Announced
-course_time: TBA
-# apply payment url
-apply_url : "#"
-# course fee
-fee : "890"
-# course thumbnail
-image: "images/courses/aws.jpg"
-button_text: "Contact"
+title : "Deep Learning on AWS"
+description : "This course allows you to test new skills and apply knowledge to your working environment through a variety of practical exercises. This course will be delivered through a mix of instructor-led training (ILT) and hands-on labs."
+courseId : 
+courseThumb : images/courses/aws.jpg
+draft : true
+location : 
+course_date : To Be Announced
+course_time : 
+payment_link : #
+price : 890.00
+currency : €
+button_text : Buy Now 
 ---
+
 
 ##### About the Course
 

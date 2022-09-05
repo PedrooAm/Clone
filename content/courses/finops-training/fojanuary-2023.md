@@ -1,20 +1,18 @@
 ---
 title: "FinOps Certified Practitioner"
 description : "This 2-day remote course is for people who want to learn FinOps best practices and become a certified practitioner."
-date: 2020-09-01T12:57:56+06:00
-draft: true
-courseThumb: images/courses/finops.jpg
+courseId : 
+courseThumb : images/courses/finops.jpg
+draft : true
 location: Virtual
 course_date: January 2023
 course_time: 9:00am – 2:00pm (CET)
-# apply payment url
-apply_url : "#"
-# course fee
-fee : "1,699.00"
-# course thumbnail
-image: "images/courses/aws.jpg"
-button_text: "Buy Now"
+payment_link : #
+price : 1,690.00
+currency : €
+button_text : Buy Now 
 ---
+
 
 #### About the Course
 

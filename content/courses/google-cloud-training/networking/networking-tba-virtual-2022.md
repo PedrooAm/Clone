@@ -1,18 +1,18 @@
 ---
 title: "Networking in Google Cloud"
 description : "This course includes activities that will allow you to test new skills and apply knowledge through hands-on lab activities. Networking in Google Cloud will be delivered through a mix of instructor-led training, demos and hands-on labs."
-date: 2020-09-01T12:57:56+06:00
-draft: true
-courseThumb: images/courses/google.jpg
+courseId : 
+courseThumb : images/courses/google.jpg
+draft : true
 location: Virtual
 course_date: To Be Announced
 course_time: TBA
-# apply payment url
-apply_url : "#"
-# course fee
-fee : NOK 15,500.00
-button_text: "Contact"
+payment_link : #
+price : 15,500.00
+currency : NOK
+button_text : Contact
 ---
+
 
 #### About the Course
 

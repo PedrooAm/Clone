@@ -1,17 +1,18 @@
 ---
 title: "Google Cloud Fundamentals: Core Infrastructure"
 description : "This course includes activities that will allow you to test new skills and apply knowledge through hands-on lab activities. Google Cloud Fundamentals: Core Infrastructure will be delivered through a mix of instructor-led training, demos and hands-on labs."
-date: 2020-09-01T12:57:56+06:00
-courseThumb: images/courses/google.jpg
-location: Virtual Session
+courseId : 
+courseThumb : images/courses/google.jpg
+draft : false
+location : Virtual
 course_date: September 26th 2022
 course_time: 9:00-17:00 CEST
-# apply payment url
-apply_url : "/contact"
-# course fee
-fee : Free of Charge - Promotion Campaign
-button_text: "Sign Up"
+payment_link : /contact
+price : Free of Charge - Promotion Campaign
+currency : €
+button_text : Sign Up
 ---
+
 
 #### About the Course
 

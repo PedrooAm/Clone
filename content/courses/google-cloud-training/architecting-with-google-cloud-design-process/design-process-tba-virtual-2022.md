@@ -1,17 +1,18 @@
 ---
 title: "Architecting with Google Cloud: Design and Process"
 description : "This course includes activities that will allow you to test new skills and apply knowledge through hands-on lab activities. Architecting with Google Cloud: Design and Process will be delivered through a mix of instructor-led training, demos and hands-on labs."
-draft: true
-courseThumb: images/courses/google.jpg
-location: Virtual
+courseId : 
+courseThumb : images/courses/google.jpg
+draft : true
+location : Virtual
 course_date: To Be Announced
 course_time: 09:00 - 17:00
-# apply payment url
-apply_url : "/contact"
-# course fee
-fee : 1,550.00
-button_text: "Buy Now"
+payment_link : #
+price : 1,550.00
+currency : €
+button_text : Buy Now
 ---
+
 
 #### About the Course
 

@@ -1,19 +1,18 @@
 ---
-title: "Architecting on AWS"
+title : "Architecting on AWS"
 description : "Cloud requires a new way of thinking. This course aims to give you a comprehensive overview to AWS fundamentals, architectural design patterns, and how to build cloud solutions on AWS."
-featureImage: images/courses/aws.jpg
-courseThumb: images/courses/aws.jpg
-location: Virtual
-course_date: September 19th - 21st 2022
-course_time: 09:00-17:00 EEST
-# apply payment url
-apply_url : "#"
-# course fee
-fee : "2,490.00"
-# course thumbnail
-image: "images/courses/aws.jpg"
-button_text: "Buy Now"
+courseId : 
+courseThumb : images/courses/aws.jpg
+draft : false
+location : Virtual
+course_date : September 19th - 21st 2022
+course_time : 09:00-17:00 EEST
+payment_link : #
+price : 2,490.00
+currency : €
+button_text : Buy Now 
 ---
+
 
 ### Architecting on AWS, Stockholm - Virtual Session
 

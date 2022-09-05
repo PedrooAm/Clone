@@ -1,18 +1,18 @@
 ---
 title: "AZ-104: Microsoft Azure Administrator"
 description : "This course provides students with the key knowledge to help prepare for Exam AZ-104."
-draft: true
-courseThumb: images/courses/azure.jpg
-location: Virtual
-course_date: To Be Announced
-course_time: TBA
-# apply payment url
-apply_url : "/contact"
-# course fee
-fee : "2,090.00"
-# course thumbnail
-button_text: "Contact Us"
+courseId : ""
+courseThumb : "images/courses/azure.jpg"
+draft : true
+location : Virtual
+course_date : "To Be Announced"
+course_time : 
+payment_link : "/contact"
+price : "2,090.00"
+currency : "€"
+button_text : "Contact Us" 
 ---
+
 
 ##### About the Course
 

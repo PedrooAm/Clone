@@ -1,19 +1,18 @@
 ---
 title: "Advanced Developing on AWS"
 description : "This course allows you to test new skills and apply knowledge to your working environment through a variety of practical exercises. This course will be delivered through a mix of instructor-led training (ILT) and hands-on labs"
-draft: true
-courseThumb: images/courses/aws.jpg
+courseId : 
+courseThumb : images/courses/aws.jpg
+draft : true
 location: Virtual
 course_date: To Be Announced
 course_time: 09:00-17:00 CEST
-# apply payment url
-apply_url : "#"
-# course fee
-fee : "2,490.00"
-# course thumbnail
-image: "images/courses/aws.jpg"
-button_text: "Contact"
+payment_link : #
+price : 2,490.00
+currency : €
+button_text : Buy Now 
 ---
+
 
 ##### About the Course
 
