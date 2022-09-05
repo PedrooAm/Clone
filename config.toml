@@ -31,7 +31,8 @@ uglyUrl = false
     weight = 5
 [[menu.main]]
     name = "Blog"
-    URL = "/blog"
+    url = "https://blog.deepdives.eu/"
+    target = "_blank"
     weight = 6
 
 # Footer Sitemap
@@ -45,7 +46,8 @@ uglyUrl = false
     weight = 2
 [[menu.sitemap]]
     name = "Blog"
-    url = "/blog"
+    url = "https://blog.deepdives.eu/"
+    target = "_blank"
     weight = 2
 [[menu.sitemap]]
     name = "Privacy Policy"
