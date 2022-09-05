@@ -2,6 +2,18 @@ a {
   color: $primary-color;
 }
 
+section.noheader {
+  padding: 100px 0 200px;
+  background-color: #fff;
+  text-align: center;
+  margin: 130px 100px 0;
+  @include mobile {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 150px;
+  }
+}
+
 .section {
   &-title {
     text-align: center;

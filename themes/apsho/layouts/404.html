@@ -1,15 +1,11 @@
 {{ define "main" }}
-
-{{ "<!--contactHeader.html-->" | safeHTML }}
-  <section class="page-header">
+  <section class="noheader">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2>{{ .Title }}</h2>
-          <p>
-            Page Not Found :()
-          </p>
-            <a href="{{ .Site.BaseURL }}" class="btn btn-whitecolor-filled">Back to Homepage
+          <h2>Error 404</h2>
+          <p>The page you are looking for has been moved or deleted.</p>
+            <a href="{{ .Site.BaseURL }}" class="btn small-btn">Back to Homepage
             </a>
         </div>
       </div>
