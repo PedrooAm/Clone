@@ -1,13 +1,13 @@
 ---
 title : "DevOps Engineering on AWS"
 description : "This course allows you to test new skills and apply knowledge to your working environment through a variety of practical exercises. This course will be delivered through a mix of instructor-led training (ILT) and hands-on labs."
-courseId : 
+courseId : prod_MNpP80ZduSlW7F
 courseThumb : images/courses/aws.jpg
 draft : false
 location : Virtual
 course_date : October 24th – 26th
 course_time : 09:00-17:00 CEST
-payment_link : #
+payment_link : https://buy.stripe.com/7sI03adPZ4J00lW8wy
 price : 2,490.00
 currency : €
 button_text : Buy Now 

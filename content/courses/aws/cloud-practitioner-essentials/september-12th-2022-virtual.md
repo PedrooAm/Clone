@@ -1,13 +1,13 @@
 ---
 title: "AWS Cloud Practitioner Essentials"
 description : "An excellent starting point to get to know the AWS cloud and its products, services, and solutions - in just one day."
-courseId : 
+courseId : prod_MNpME6oLQcqjDc
 courseThumb : images/courses/aws.jpg
 draft : false
 location : Virtual
 course_date : September 12th 2022
 course_time : 09:00-17:00 EEST
-payment_link : #
+payment_link : https://buy.stripe.com/3cs3fm27h0sK6KkcMT
 price : 890.00
 currency : €
 button_text : Buy Now 

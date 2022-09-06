@@ -1,13 +1,13 @@
 ---
 title: "Advanced Architecting on AWS"
 description : "In this course, each module presents a scenario with an architectural challenge to be solved. You will examine available AWS services and features as solutions to the problem. You will gain insights by participating in problem-based discussions and learning about the AWS services that you could apply to meet the challenges."
-courseId : 
+courseId : prod_MNnPZD4zNi4E1l
 courseThumb : images/courses/aws.jpg
 draft : false
 location: Virtual
 course_date: September 13th – 15th 2022
 course_time: 09:00-17:00 CEST
-payment_link : #
+payment_link : https://buy.stripe.com/3cs2bi3blfnE1q028m
 price : 2,490.00
 currency : €
 button_text : Buy Now 

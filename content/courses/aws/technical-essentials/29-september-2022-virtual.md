@@ -1,13 +1,13 @@
 ---
 title : "AWS Technical Essentials"
 description : "An excellent starting point to get to know the AWS cloud and its products, services, and solutions - in just one day."
-courseId : 
+courseId : prod_MNpN1N1tGj3CkJ
 courseThumb : images/courses/aws.jpg
 draft : false
 location : Virtual
 course_date : September 29th 2022
 course_time : 09:00-17:00 CEST
-payment_link : #
+payment_link : https://buy.stripe.com/6oE7vCh2bgrIc4E5kq
 price : 890.00
 currency : €
 button_text : Buy Now 

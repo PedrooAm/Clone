@@ -1,13 +1,13 @@
 ---
 title: "Architecting on AWS"
 description : "Cloud requires a new way of thinking. This course aims to give you a comprehensive overview to AWS fundamentals, architectural design patterns, and how to build cloud solutions on AWS."
-courseId : 
+courseId : prod_MNonkJS6mbqXgc
 courseThumb : images/courses/aws.jpg
 draft : false
 location: Oslo
 course_date: September 19th - 21st 2022
 course_time: 09:00-17:00 CEST
-payment_link : #
+payment_link : https://buy.stripe.com/00g9DK6nx0sK8Ss7sF
 price : 27,900.00
 currency : NOK
 button_text : Buy Now 

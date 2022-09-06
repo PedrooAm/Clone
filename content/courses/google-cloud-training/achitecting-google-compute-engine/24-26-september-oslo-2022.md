@@ -1,13 +1,13 @@
 ---
 title: "Architecting with Google Compute Engine"
 description : "This course includes activities that will allow you to test new skills and apply knowledge through hands-on lab activities. Architecting with Google Compute Engine will be delivered through a mix of instructor-led training, demos and hands-on labs."
-courseId : ""
+courseId : prod_MNpKy631tcpgNF
 courseThumb : "images/courses/google.jpg"
 draft : false
 location : Oslo
 course_date : September 24th - 26th 2022
 course_time : 9:00-17:00 CEST
-payment_link : #
+payment_link : https://buy.stripe.com/aEU4jq6nx6R88SscMV
 price : 27,500.00
 currency : NOK
 button_text : Buy Now 
