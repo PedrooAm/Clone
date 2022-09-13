@@ -11,6 +11,9 @@ payment_link : "/contact"
 price : TBA
 currency : 
 button_text : "Contact Us"
+poweredby : /images/courses/nordcloud.svg
+poweredbytext : "Powered By"
+
 ---
 
 

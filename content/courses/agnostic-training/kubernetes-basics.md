@@ -11,6 +11,8 @@ payment_link : "/contact"
 price : "1,400.00"
 currency : "€"
 button_text : "Contact Us"
+poweredby : /images/courses/nordcloud.svg
+poweredbytext : "Powered By"
 ---
 
 

@@ -12,6 +12,8 @@ price :
 currency : 
 image : 
 button_text : 
+poweredby : /images/courses/nordcloud.svg
+poweredbytext : "Powered By"
 ---
 
 ### About the Course

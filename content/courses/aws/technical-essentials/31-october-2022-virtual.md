@@ -11,6 +11,8 @@ payment_link : https://buy.stripe.com/bIY8zGdPZ5N43y8005
 price : 890.00
 currency : €
 button_text : Buy Now 
+poweredby : /images/courses/nordcloud.svg
+poweredbytext : "Powered By"
 ---
 
 ### AWS Technical Essentials, Stockholm - Virtual Session 

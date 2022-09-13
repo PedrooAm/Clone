@@ -11,6 +11,8 @@ payment_link : https://buy.stripe.com/7sI03adPZ4J00lW8wy
 price : 2,490.00
 currency : €
 button_text : Buy Now 
+poweredby : /images/courses/nordcloud.svg
+poweredbytext : "Powered By"
 ---
 
 

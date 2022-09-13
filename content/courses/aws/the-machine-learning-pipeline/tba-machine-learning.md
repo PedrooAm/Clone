@@ -11,6 +11,9 @@ payment_link : #
 price : 3,290.00
 currency : €
 button_text : Buy Now 
+poweredbytext : "Powered By"
+poweredby : /images/courses/nordcloud.svg
+poweredbytext : "Powered By"
 ---
 
 

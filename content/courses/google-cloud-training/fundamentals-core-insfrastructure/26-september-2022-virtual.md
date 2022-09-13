@@ -11,6 +11,8 @@ payment_link : /contact
 price : Free of Charge - Promotion Campaign
 currency : 
 button_text : Sign Up
+poweredby : /images/courses/nordcloud.svg
+poweredbytext : "Powered By"
 ---
 
 

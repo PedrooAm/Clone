@@ -36,7 +36,12 @@
                       <span>{{ .Params.currency }} {{ .Params.price }} excl. VAT</span>
                   </div>
                   </div>
-                  <div class="lista">                  <a href="{{ .Params.payment_link | safeURL }}" class="btn small-btn">{{ .Params.button_text }}</a>
+                  <div class="lista">                  
+                    <a href="{{ .Params.payment_link | safeURL }}" class="btn small-btn">{{ .Params.button_text }}</a>
+                    <span>
+                      <small class="poweredby"> {{ .Params.poweredbytext }} </small>
+                      <img class="poweredby" src="{{ .Params.poweredby | absURL }}" alt="" />
+                    </span>
                   </div>
               </div>
             </div>

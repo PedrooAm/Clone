@@ -10,6 +10,10 @@
               <img src="{{ .Params.courseThumb | absURL }}" alt="author-thumb" />
             </li>        
           </ul>
+          <span class="poweredby single">
+            <small class="poweredby"> {{ .Params.poweredbytext }} </small>
+            <img class="poweredby single white" src="{{ .Params.poweredby | absURL }}" alt="" />
+          </span>
         </div>
         <h2>
           {{ .Title }}   
@@ -34,9 +38,11 @@
             </br> 
               <span><b>PRICE: </b>{{ .Params.currency }} {{ .Params.price }} excl. VAT</span>
             </br> 
+            <div>
           </br> 
             </div>
           </div>
+        </div>
           {{ .Content }}
           <div class="meta">
             <span><b>DATE: </b>{{ .Params.course_date }}</span>

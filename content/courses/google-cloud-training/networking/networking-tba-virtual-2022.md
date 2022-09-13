@@ -11,6 +11,7 @@ payment_link : #
 price : 15,500.00
 currency : NOK
 button_text : Contact
+poweredby : /images/courses/nordcloud.svg
 ---
 
 
