@@ -10,14 +10,14 @@
               <img src="{{ .Params.courseThumb | absURL }}" alt="author-thumb" />
             </li>        
           </ul>
-          <span class="poweredby single">
-            <small class="poweredby"> {{ .Params.poweredbytext }} </small>
-            <img class="poweredby single white" src="{{ .Params.poweredby | absURL }}" alt="" />
-          </span>
-        </div>
         <h2>
           {{ .Title }}   
         </h2>
+        </div>
+        <span class="poweredby single">
+          <small class="poweredby"> {{ .Params.poweredbytext }} </small>
+          <img class="poweredby single white" src="{{ .Params.poweredby | absURL }}" alt="" />
+        </span>
       </div>
     </div>
   </div>
