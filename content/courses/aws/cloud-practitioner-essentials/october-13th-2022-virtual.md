@@ -11,6 +11,7 @@ payment_link : https://buy.stripe.com/5kA4jq27h1wO3y89AI
 price : 890.00
 currency : €
 button_text : Buy Now 
+ 
 ---
 
 
