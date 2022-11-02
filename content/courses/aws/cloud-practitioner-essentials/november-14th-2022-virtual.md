@@ -1,16 +1,15 @@
 ---
-title: "AWS Cloud Practitioner Essentials"
+title : "AWS Cloud Practitioner Essentials"
 description : "An excellent starting point to get to know the AWS cloud and its products, services, and solutions - in just one day."
-courseId : prod_MNpME6oLQcqjDc
 courseThumb : images/courses/aws.jpg
 draft : false
 location : Virtual
-course_date : September 12th 2022
+course_date : November 14th 20222
 course_time : 09:00-17:00 EEST
-payment_link : https://buy.stripe.com/3cs3fm27h0sK6KkcMT
+payment_link : https://buy.stripe.com/8wM17ebHRb7ob0A7sJ
 price : 890.00
 currency : €
-button_text : Buy Now 
+button_text : Buy Now
 poweredby : /images/courses/nordcloud.svg
 poweredbytext : "Powered By"
 ---
@@ -22,8 +21,8 @@ On this fundamental-level full day course you will learn about AWS Cloud concept
 
 ### Course Price 
 
-* Virtual campaign price EUR 770.00 (excl VAT).
-* Regular price EUR 890.00 (excl VAT).
+- Virtual campaign price EUR 770.00 (excl VAT).
+- Regular price EUR 890.00 (excl VAT).
 
 ### Language
 
@@ -61,10 +60,10 @@ The course will be taught in English.
 - Define the core billing, account management, and pricing models
 - Explain how to use pricing tools to make cost-effective choices for AWS services
 
-![](https://nordcloud.com/wp-content/uploads/2020/03/nordcloud_web_square-39-1.jpg#right)
+![](https://nordcloud.com/wp-content/uploads/2020/03/nordcloud_web_square-39-1.jpg#floatright)
+
 
 ### Agenda
-
 #### Day One
 
 - Introduction to Amazon Web Services
@@ -72,8 +71,9 @@ The course will be taught in English.
 - Global Infrastructure and Reliability
 - Networking
 - Storage and Databases
-- Security
+- Security 
 - Monitoring and Analytics
 - Pricing and Support
 - Migration and Innovation
 - AWS Certified Cloud Practitioner Basics
+

@@ -1,13 +1,12 @@
 ---
 title : "Developing on AWS"
 description : "This course allows you to test new skills and apply knowledge to your working environment through a variety of practical exercises. This course will be delivered through a mix of instructor-led training (ILT) and hands-on labs."
-courseId : prod_MNpOQgjry6pu8j
 courseThumb : images/courses/aws.jpg
 draft : false
 location : Virtual
-course_date : September 26th – 28th 2022
-course_time : 09:00-17:00 EEST
-payment_link : https://buy.stripe.com/7sIaHO27hgrIgkU6os
+course_date : November 8th – 10th 2022
+course_time : 09:00-17:00 EET
+payment_link : https://buy.stripe.com/6oEaHO6nxdfw6KkaEZ
 price : 2,490.00
 currency : €
 button_text : Buy Now 
@@ -18,7 +17,7 @@ poweredbytext : "Powered By"
 
 ### Developing on AWS, Helsinki - Virtual Session
 
-###### (ADE2209FIV)
+###### (ADE2211FIV)
 
 ##### About the Course
 

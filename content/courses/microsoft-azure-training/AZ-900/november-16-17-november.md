@@ -3,21 +3,22 @@ title: "AZ-900: Microsoft Azure Fundamentals"
 description : "This course will provide foundational-level knowledge of cloud services and how those services are provided with Microsoft Azure."
 courseId : ""
 courseThumb : "images/courses/azure.jpg"
-draft : true
-location : "Virtual"
-course_date: To Be Announced
-course_time: ""
-payment_link : "/contact"
-price : TBA
-currency : 
-button_text : "Contact Us"
+draft : false
+location : Virtual
+course_date: November 16th - 17th 20222
+course_time: 9:00-17:00 CET
+payment_link : https://buy.stripe.com/14k6rybHRejA7OoeVj
+price : 1,090.00 
+currency : €
+button_text : "Buy Now"
 poweredby : /images/courses/nordcloud.svg
 poweredbytext : "Powered By"
 
 ---
 
+#### AZ-900: Microsoft Azure Fundamentals, Stockholm - Virtual Session (MFU2211SEV)
 
-#### About the Course
+#### About the Course 
 
 This two-day course will provide foundational level knowledge on cloud concepts; core Azure services; security, privacy, compliance, and trust; and Azure pricing and support.
 

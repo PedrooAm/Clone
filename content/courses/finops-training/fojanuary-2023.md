@@ -3,18 +3,19 @@ title: "FinOps Certified Practitioner"
 description : "This 2-day remote course is for people who want to learn FinOps best practices and become a certified practitioner."
 courseId : 
 courseThumb : images/courses/finops.jpg
-draft : true
+draft : false
 location: Virtual
 course_date: January 2023
 course_time: 9:00am – 2:00pm (CET)
-payment_link : #
+payment_link : /contact
 price : 1,690.00
 currency : €
-button_text : Buy Now 
+button_text : Contact
 poweredby : /images/courses/nordcloud.svg
 poweredbytext : "Powered By"
 ---
 
+#### FinOps certified Practitioner (FCP2301SEV)
 
 #### About the Course
 

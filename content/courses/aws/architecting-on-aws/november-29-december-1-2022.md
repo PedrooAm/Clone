@@ -1,13 +1,12 @@
 ---
-title : "Architecting on AWS"
+title: "Architecting on AWS"
 description : "Cloud requires a new way of thinking. This course aims to give you a comprehensive overview to AWS fundamentals, architectural design patterns, and how to build cloud solutions on AWS."
-courseId : prod_MNp0iq3Yc9ZBcz
 courseThumb : images/courses/aws.jpg
 draft : false
-location : Virtual
-course_date : September 19th - 21st 2022
-course_time : 09:00-17:00 EEST
-payment_link : https://buy.stripe.com/28oaHO3bl4J02u428k
+location: Virtual
+course_date: November 29th - December 1st 2022
+course_time: 09:00-17:00 EET
+payment_link : https://buy.stripe.com/3csbLS27h5N43y85kD
 price : 2,490.00
 currency : €
 button_text : Buy Now 
@@ -16,9 +15,9 @@ poweredbytext : "Powered By"
 ---
 
 
-### Architecting on AWS, Stockholm - Virtual Session
+### Architecting on AWS - Virtual Session
 
-###### (AAR2209FIV)
+###### (AAR2212FIV)
 
 ##### About the Course
 
@@ -26,12 +25,16 @@ Architecting on AWS is for solutions architects, solution-design engineers, and 
 
 Architectural solutions differ depending on industry, types of applications, and business size. AWS Authorized Instructors emphasize best practices using the AWS Well-Architected Framework, and guide you through the process of designing optimal IT solutions, based on real-life scenarios. The modules focus on account security, networking, compute, storage, databases, monitoring, automation, containers, serverless architecture, edge services, and backup and recovery. At the end of the course, you will practice building a solution and apply what you have learned with confidence.
 
+#### Location
+
+* November 29th - December 1st
+* 09:00-17:00 EET
+* Virtual - Online Session
 
 #### Course Price 
 
-Virtual campaign price EUR 770.00 (excl VAT).
-
-Regular price EUR 890.00 (excl VAT).
+Virtual campaign price EUR 2,140.00 (excl VAT)
+Regular price EUR 2,490.00 (excl VAT)
 
 #### Language
 
