@@ -5,7 +5,7 @@ courseId : ""
 courseThumb : "images/courses/azure.jpg"
 draft : false
 location : Virtual
-course_date: November 16th - 17th 20222
+course_date: November 16th - 17th 2022
 course_time: 9:00-17:00 CET
 payment_link : https://buy.stripe.com/14k6rybHRejA7OoeVj
 price : 1,090.00 

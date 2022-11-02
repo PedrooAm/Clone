@@ -4,7 +4,7 @@ description : "An excellent starting point to get to know the AWS cloud and its 
 courseThumb : images/courses/aws.jpg
 draft : false
 location : Virtual
-course_date : November 14th 20222
+course_date : November 14th 2022
 course_time : 09:00-17:00 EEST
 payment_link : https://buy.stripe.com/8wM17ebHRb7ob0A7sJ
 price : 890.00
