@@ -11,9 +11,14 @@ team:
     title: Mikko Nieminen
     description: Mikko is an instructor and one of the founders of deepdives.eu. Mikko is currently concentrating on developer-based courses and is an AWS Authorized Instructor.
  
+  - image: images/team/fatima.jpg
+    title: Fatima Verwijnen
+    description: "Fatima Verwijnen is a Finnish diversity consultant, work life coach and human rights activist.
+    Verwijnen talks about structural racism in working life and trains companies on how to make working life open to minorities. In educational institutions, he lectures to young people with an immigrant background."
+
   - image: images/team/ivandro.jpg
     title: Ivandro Alves
-    description: Ivandro has a background and passion in IT & Communication Design, having worked as a Freelance Graphic Designer for many years, Ivandro eventually took over the direction of AOES’s online image and created our existing brand identity. 
+    description: Ivandro has a background and passion in IT & Communication Design, having worked as a Freelance Graphic Designer for many years, Ivandro eventually took over the direction of Deep Dive’s online image and created our existing brand identity. 
     
   - image: images/team/sam.jpg
     title: Sandipkumar Patel (Sam)
