@@ -70,7 +70,7 @@
             <ul>
               {{ $sitemap := .Site.Menus.sitemap }}
                 {{ range $sitemap }}
-                  <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                  <li><a href="{{ .URL | absURL }}" {{ if eq .Params.external true }}target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}</a></li>
               {{ end }}
             </ul>
           </div>
