@@ -1,19 +1,18 @@
 ---
 enable: true
 title: Frequently Asked Questions
-description: Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+description: We strive for the best learning experience for our students.
 faqItem:
-  - question: HLorem ipsum, dolor sit?
-    answer: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus a, expedita dolorum consequatur magni commodi tempore nesciunt soluta veritatis corporis iste labore eaque aliquam, sapiente debitis dignissimos aut exercitationem minima.
+  - question: Technical Requirements
+    answer: "You must bring your own laptop device to class in order to run hands-on labs. You are required to bring a device that meets the following requirements:
+* A notebook computer with Wi-Fi
+* Administrator access to the computer (if Windows, optional)
+* Chrome or Firefox (Internet Explorer will not work)"
     dataTarget: One
     show: show
 
-  - question: Lorem ipsum, dolor sit?
-    answer: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus a, expedita dolorum consequatur magni commodi tempore nesciunt soluta veritatis corporis iste labore eaque aliquam, sapiente debitis dignissimos aut exercitationem minima.
+  - question: Cancellation & Payment Policy
+    answer: "All prices are net prices. VAT will be added to the price. You have the right to cancel your registration free of charge up until 15 days prior to the event. Nordcloud holds the right to cancel the event 14 days prior to the event, in which case all paid seats will be refunded. A final event confirmation message will be sent to all registrants 14 days prior to the event. No refunds will be paid after the final event confirmation message has been sent. In case the event is cancelled a cancellation message will be sent."
     dataTarget: Two
     show: 
     
-  - question: Lorem ipsum, dolor sit?
-    answer: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus a, expedita dolorum consequatur magni commodi tempore nesciunt soluta veritatis corporis iste labore eaque aliquam, sapiente debitis dignissimos aut exercitationem minima.
-    dataTarget: Three
-    show: 
