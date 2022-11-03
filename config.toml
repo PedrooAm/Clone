@@ -32,8 +32,9 @@ uglyUrl = false
 [[menu.main]]
     name = "Blog"
     url = "https://blog.deepdives.eu/"
-    target = "_blank"
-    weight = 6
+    weight = 10
+    [menu.main.params]
+    external = true
 
 # Footer Sitemap
 [[menu.sitemap]]
