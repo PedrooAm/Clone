@@ -1,5 +1,5 @@
 # MAIN base
-baseURL = "http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/"
+baseURL = "http://deepdivesstaticweb.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Deep Dives | Cloud training with a difference."
 theme = "apsho"
@@ -11,7 +11,7 @@ uglyUrl = false
 # Navigation Bar
 [[menu.main]]
     name = "Home"
-    url = "http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/#hero"
+    url = "http://deepdivesstaticweb.s3-website-us-east-1.amazonaws.com/#hero"
     weight = 1
 [[menu.main]]
     name = "About"
