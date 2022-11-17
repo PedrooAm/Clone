@@ -16,7 +16,6 @@ jobs:
       
       - name: Build and deploy
         uses: ivandroalves/deep-dives-hugo/actions-hugo@v2
-        run: hugo --minify 
         with:
           hugo-version: 0.89.0
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
