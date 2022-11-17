@@ -4,8 +4,8 @@ branding:
   icon: package
   color: yellow
 inputs:
-  hugo-version: 0.89.0
-    description: 'Choose a valid Hugo version'
+  hugo-version: 
+    description: '0.89.0'
     required: true
 runs:
   using: "composite"
