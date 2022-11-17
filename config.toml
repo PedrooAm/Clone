@@ -93,9 +93,6 @@ order = [".jpg$", ".gif$"]
 
 [[deployment.targets]]
 # An arbitrary name for this target.
-name = "deepdivesweb"
-
-
-
+name = "deepdivesweb
 # For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
-# URL = "s3://deepdivesweb?region=eu-west-2&awssdk=2"
+# URL = "s3://deepdivesweb?region=eu-west-2"
