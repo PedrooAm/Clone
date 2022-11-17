@@ -2,7 +2,7 @@
 
   env:
     variables:
-      s3_output: "blog.enzobercasio.com"
+      s3_output: "s3://deepdivesweb?region=eu-west-2"
       hugo_version: "0.49"
 
   phases:
