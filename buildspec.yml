@@ -2,7 +2,6 @@
 
   env:
     variables:
-      s3_output: "s3://deepdivesweb?region=eu-west-2/"
       hugo_version: "0.89.4"
 
   phases:
@@ -16,6 +15,6 @@
       commands:
         - hugo
         - cd public
-        - aws s3 sync . s3://${s3_output} --delete --acl public-read
+        - aws s3 sync . s3://deepdivesstaticweb --delete --acl public-read
       finally:
         - echo "Build script finished running"
