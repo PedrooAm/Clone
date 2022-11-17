@@ -1,2 +1,0 @@
-- name: Deploy Hugo to S3
-  uses: AlbertMorenoDEV/deploy-hugo-to-s3-action@v0.0.5
