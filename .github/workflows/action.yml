@@ -6,7 +6,7 @@ branding:
   color: yellow
 inputs:
   hugo-version:
-    description: 'Choose a valid Hugo version'
+    description: '0.89.4'
     required: true
   aws-access-key-id:
     description: 'AWS Access Key ID'
