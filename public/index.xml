@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Dives | Cloud training with a difference.</title>
-    <link>https://enchanting-llama-faa0bb.netlify.app/</link>
+    <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/</link>
     <description>Recent content on Deep Dives | Cloud training with a difference.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Jan 2021 20:18:07 +0600</lastBuildDate><atom:link href="https://enchanting-llama-faa0bb.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jan 2021 20:18:07 +0600</lastBuildDate><atom:link href="http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS IAM Not*</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/blog/aws-iam-not/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/blog/aws-iam-not/</link>
       <pubDate>Sat, 02 Jan 2021 20:18:07 +0600</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/blog/aws-iam-not/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/blog/aws-iam-not/</guid>
       <description>Sometimes writing AWS IAM policies gets confusing. Especially if our policy authoring is reactive in nature instead of following a proactive permissions strategy.
 Wow — this is complicated! Additionally some of the documentation and courseware suggest doing both allow and deny-statements.
 What how?
@@ -22,65 +22,65 @@ Well the Amazon S3: Limits managing to a specific S3 Bucket example in the IAM U
     
     <item>
       <title>How to create a serverless URL shortener using Amazon S3</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/blog/how-create-serverless-url-shortener-using-amazon-s3/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/blog/how-create-serverless-url-shortener-using-amazon-s3/</link>
       <pubDate>Mon, 06 Jan 2020 20:18:07 +0600</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/blog/how-create-serverless-url-shortener-using-amazon-s3/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/blog/how-create-serverless-url-shortener-using-amazon-s3/</guid>
       <description>Let’s admit it. We access more and more of the information we need in our daily activities using URLs. These URLs have become longer and more cryptic over time but that’s ok since we simply click on them.
 However, sometimes we need to communicate those URLs in a non-internset-native way. For me this has happened during training classes as well as when writing a book. I want the class to download a piece of source code, but the GitHub project file URL is way too long to be correctly retyped by the attendees.</description>
     </item>
     
     <item>
       <title>Amazon Web Services Courses</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/courses/aws/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/aws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/aws/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Courses by Deep Dives</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/courses/agnostic-training/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/agnostic-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/agnostic-training/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/agnostic-training/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FinOps Training</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/finops-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/finops-training/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google Cloud Training</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/courses/google-cloud-training/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/google-cloud-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/google-cloud-training/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/google-cloud-training/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microsoft Azure Training</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/courses/microsoft-azure-training/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/microsoft-azure-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/microsoft-azure-training/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/microsoft-azure-training/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy &amp; Policy</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/privacy/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/privacy/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/privacy/</guid>
       <description>At Deep Dives, accessible from https://deepdives.eu/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Deep Dives and how we use it.
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Deep Dives.</description>

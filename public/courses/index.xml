@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Our Courses on Deep Dives | Cloud training with a difference.</title>
-    <link>https://enchanting-llama-faa0bb.netlify.app/courses/</link>
+    <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/</link>
     <description>Recent content in Our Courses on Deep Dives | Cloud training with a difference.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2020 20:33:11 +0600</lastBuildDate><atom:link href="https://enchanting-llama-faa0bb.netlify.app/courses/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Aug 2020 20:33:11 +0600</lastBuildDate><atom:link href="http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amazon Web Services Courses</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/courses/aws/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/aws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/aws/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Courses by Deep Dives</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/courses/agnostic-training/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/agnostic-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/agnostic-training/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/agnostic-training/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FinOps Training</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/finops-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/finops-training/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/finops-training/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google Cloud Training</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/courses/google-cloud-training/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/google-cloud-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/google-cloud-training/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/google-cloud-training/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microsoft Azure Training</title>
-      <link>https://enchanting-llama-faa0bb.netlify.app/courses/microsoft-azure-training/</link>
+      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/microsoft-azure-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://enchanting-llama-faa0bb.netlify.app/courses/microsoft-azure-training/</guid>
+      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/microsoft-azure-training/</guid>
       <description></description>
     </item>
     
