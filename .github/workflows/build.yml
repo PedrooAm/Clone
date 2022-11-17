@@ -15,8 +15,9 @@ jobs:
         uses: actions/checkout@main
       
       - name: Build and deploy
-        uses: AlbertMorenoDEV/deploy-hugo-to-s3-action@v0.0.5
+        uses: ivandroalves/deep-dives-hugo/actions-hugo@v2
+        run: hugo --minify 
         with:
           hugo-version: 0.89.0
-          aws-access-key-id: AKIA5ZSAGAPHVIY3ZTGN
-          aws-secret-access-key: 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
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
