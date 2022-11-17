@@ -17,7 +17,7 @@ inputs:
   target:
     description: 'A deployment target'
     required: false
-    default: ''
+    default: 's3://deepdivesweb.com?region=eu-west-2'
 runs:
   using: "composite"
   steps:
