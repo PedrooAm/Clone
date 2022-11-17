@@ -1,0 +1,8 @@
+# -------------- AWS S3 Deployment Configs -------------- #
+
+deployment:
+
+  targets:
+    - name: "staging"
+      URL: "s3://deepdivesweb.com?region=eu-west-2"
+
