@@ -96,3 +96,24 @@ order = [".jpg$", ".gif$"]
 name = "deepdivesweb"
 # For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
 # URL = "s3://deepdivesweb?region=eu-west-2"
+
+import (
+	"context"
+
+	"gocloud.dev/blob"
+	_ "gocloud.dev/blob/s3blob"
+)
+
+// blob.OpenBucket creates a *blob.Bucket from a URL.
+bucket, err := blob.OpenBucket(ctx, "s3://deepdivesweb?region=us-west-1")
+if err != nil {
+	return err
+}
+defer bucket.Close()
+
+// Forcing AWS SDK V2.
+bucket, err = blob.OpenBucket(ctx, "s3://deepdivesweb?region=us-west-1&awssdk=2")
+if err != nil {
+	return err
+}
+defer bucket.Close()
