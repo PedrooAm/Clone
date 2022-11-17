@@ -1,12 +1,23 @@
 name: 'Deploy Hugo to S3'
 description: 'Build and deploy Hugo static websites to AWS S3'
+author: 'AlbertMorenoDEV'
 branding:
   icon: package
   color: yellow
 inputs:
-  hugo-version: 
-    description: '0.89.0'
+  hugo-version:
+    description: 'Choose a valid Hugo version'
     required: true
+  aws-access-key-id:
+    description: 'AWS Access Key ID'
+    required: true
+  aws-secret-access-key:
+    description: 'AWS Secret Access Key'
+    required: true
+  target:
+    description: 'A deployment target'
+    required: false
+    default: ''
 runs:
   using: "composite"
   steps:
@@ -29,8 +40,13 @@ runs:
       shell: bash
     
     - id: deploy-to-s3
-      run: $HOME/hugo -v deploy --invalidateCDN --maxDeletes -1
+      run: |
+        if [[ "${{ inputs.target }}" ]]; then
+          $HOME/hugo -v deploy --target=${{ inputs.target }} --invalidateCDN --maxDeletes -1
+        else
+          $HOME/hugo -v deploy --invalidateCDN --maxDeletes -1
+        fi
       env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_ACCESS_KEY_ID: ${{ inputs.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ inputs.AWS_SECRET_ACCESS_KEY }}
       shell: bash
