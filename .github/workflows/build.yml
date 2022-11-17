@@ -18,7 +18,5 @@ jobs:
         uses: AlbertMorenoDEV/deploy-hugo-to-s3-action@v0.0.5
         with:
           hugo-version: 0.89.0
-          AWS_REGION: '${{ secrets.AWS_REGION }}'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          MINIFY: 'true'
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
