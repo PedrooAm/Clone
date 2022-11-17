@@ -84,15 +84,3 @@ copyright2 = "Copyright © Deep Dives {year}"
 
 #contact
 email = "info@deepdives.eu"
-
-[deployment]
-# By default, files are uploaded in an arbitrary order.
-# Files that match the regular expressions in the "Order" list
-# will be uploaded first, in the listed order.
-order = [".jpg$", ".gif$"]
-
-[[deployment.targets]]
-# An arbitrary name for this target.
-name = "deepdiveswebgit"
-# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
-# URL = "s3://deepdivesweb?region=eu-west-2"
