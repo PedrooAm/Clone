@@ -1,5 +1,5 @@
 # MAIN base
-baseURL = "http://deepdivesstaticweb.s3-website-us-east-1.amazonaws.com/"
+baseURL = "./"
 languageCode = "en-us"
 title = "Deep Dives | Cloud training with a difference."
 theme = "apsho"
@@ -11,11 +11,11 @@ uglyUrl = false
 # Navigation Bar
 [[menu.main]]
     name = "Home"
-    url = "http://deepdivesstaticweb.s3-website-us-east-1.amazonaws.com/#hero"
+    url = "/#hero"
     weight = 1
 [[menu.main]]
     name = "About"
-    url = "http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/#feature"
+    url = "#feature"
     weight = 2
 [[menu.main]]
     name = "Courses"
@@ -23,11 +23,11 @@ uglyUrl = false
     weight = 3
 [[menu.main]]
     name = "Team"
-    url = "http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/#team"
+    url = "/#team"
     weight = 4
 [[menu.main]]
     name = "FAQ"
-    url = "http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/#faq"
+    url = "#faq"
     weight = 5
 [[menu.main]]
     name = "Blog"
@@ -39,7 +39,7 @@ uglyUrl = false
 # Footer Sitemap
 [[menu.sitemap]]
     name = "Home"
-    url = "http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/"
+    url = "/"
     weight = 1
 [[menu.sitemap]]
     name = "Courses"
@@ -53,11 +53,11 @@ uglyUrl = false
     external = true
 [[menu.sitemap]]
     name = "Privacy Policy"
-    url = "http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/privacy"
+    url = "/privacy"
     weight = 3
 [[menu.sitemap]]
     name = "Contact"
-    url = "http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/contact"
+    url = "/contact"
     weight = 4
 
 # Footer Address
