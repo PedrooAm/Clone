@@ -5,12 +5,6 @@
       hugo_version: "0.84.4"
 
   phases:
-    install:
-      commands:
-        - wget "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.deb"
-        - dpkg -i hugo_${hugo_version}_Linux-64bit.deb
-      finally:
-        - hugo version
     build:
       commands:
         - hugo
