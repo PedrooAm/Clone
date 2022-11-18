@@ -7,5 +7,6 @@ phases:
   
 artifacts:
   files:
-    - 'public/**/*'
-  base-directory: public
+    - '/**/*'
+  base-directory: 'public*'
+  discard-paths: yes
