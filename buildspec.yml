@@ -1,9 +1,5 @@
   version: 0.2
 
-  env:
-    variables:
-      hugo_version: "0.84.4"
-
   phases:
     build:
       commands:
