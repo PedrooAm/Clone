@@ -1,10 +1,10 @@
-  version: 0.2
+version: 0.2
 
-  phases:
-    build:
-      commands:
-        - hugo
-        - cd public
-        - aws s3 sync . s3://deepdiveshugowebsite --delete
-      finally:
-        - echo "Build script finished running"
+phases:
+  build:
+    commands:
+      - hugo 
+  
+artifacts:
+  files:
+    'public/**/*'
