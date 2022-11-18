@@ -2,7 +2,7 @@
 
   env:
     variables:
-      hugo_version: "0.89.4"
+      hugo_version: "0.70.0"
 
   phases:
     install:
