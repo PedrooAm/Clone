@@ -15,6 +15,6 @@
       commands:
         - hugo
         - cd public
-        - aws s3 sync . s3://deepdiveshugodata --delete --acl public-read
+        - aws s3 sync . s3://deepdiveshugowebsite --delete
       finally:
         - echo "Build script finished running"
