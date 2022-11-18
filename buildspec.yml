@@ -4,8 +4,11 @@ phases:
   build:
     commands:
       - hugo 
-  
+
+> $CODEBUILD_SRC_DIR/imagedefinitions.json
+
 artifacts:
   files:
-    - 'public/**/*'
-  base-directory: public
+    - '/**/*'
+  base-directory: 
+    - '/public'
