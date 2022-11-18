@@ -5,6 +5,3 @@ phases:
     commands:
       - hugo 
 
-artifacts:
-  files:
-    - '/**/*'
