@@ -1,5 +1,5 @@
 # MAIN base
-baseURL = "/"
+baseURL = "*/"
 languageCode = "en-us"
 title = "Deep Dives | Cloud training with a difference."
 theme = "apsho"
@@ -15,7 +15,7 @@ uglyUrl = false
     weight = 1
 [[menu.main]]
     name = "About"
-    url = "#feature"
+    url = "/#feature"
     weight = 2
 [[menu.main]]
     name = "Courses"
@@ -27,7 +27,7 @@ uglyUrl = false
     weight = 4
 [[menu.main]]
     name = "FAQ"
-    url = "#faq"
+    url = "/#faq"
     weight = 5
 [[menu.main]]
     name = "Blog"
