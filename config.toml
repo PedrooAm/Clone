@@ -1,5 +1,5 @@
 # MAIN base
-baseURL = "*/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Deep Dives | Cloud training with a difference."
 theme = "apsho"
