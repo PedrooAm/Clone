@@ -8,5 +8,4 @@ phases:
 artifacts:
   files:
     - '/**/*'
-  base-directory: 'public*'
-  discard-paths: yes
+  base-directory: 'public'
