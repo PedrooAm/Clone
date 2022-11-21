@@ -5,3 +5,7 @@ phases:
     commands:
       - hugo 
 
+artifacts:
+  files:
+    - '**/*'
+      base-directory: public
