@@ -2,88 +2,127 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Dives | Cloud training with a difference.</title>
-    <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/</link>
+    <link>/</link>
     <description>Recent content on Deep Dives | Cloud training with a difference.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Jan 2021 20:18:07 +0600</lastBuildDate><atom:link href="http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Aug 2020 20:33:11 +0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AWS IAM Not*</title>
-      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/blog/aws-iam-not/</link>
-      <pubDate>Sat, 02 Jan 2021 20:18:07 +0600</pubDate>
-      
-      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/blog/aws-iam-not/</guid>
-      <description>Sometimes writing AWS IAM policies gets confusing. Especially if our policy authoring is reactive in nature instead of following a proactive permissions strategy.
-Wow — this is complicated! Additionally some of the documentation and courseware suggest doing both allow and deny-statements.
-What how?
-Well the Amazon S3: Limits managing to a specific S3 Bucket example in the IAM User Guide shows the idea.
-{ &amp;#34;Version&amp;#34;: &amp;#34;2012-10-17&amp;#34;, &amp;#34;Statement&amp;#34;: [ { &amp;#34;Effect&amp;#34;: &amp;#34;Allow&amp;#34;, &amp;#34;Action&amp;#34;: &amp;#34;s3:*&amp;#34;, &amp;#34;Resource&amp;#34;: [ &amp;#34;arn:aws:s3:::bucket-name&amp;#34;, &amp;#34;arn:aws:s3:::bucket-name/*&amp;#34; ] }, { &amp;#34;Effect&amp;#34;: &amp;#34;Deny&amp;#34;, &amp;#34;NotAction&amp;#34;: &amp;#34;s3:*&amp;#34;, &amp;#34;NotResource&amp;#34;: [ &amp;#34;arn:aws:s3:::bucket-name&amp;#34;, &amp;#34;arn:aws:s3:::bucket-name/*&amp;#34; ] } ] } So here we’re allowing all S3 access on to a particular bucket and its contents, and then denying all other actions (for all other services!</description>
-    </item>
-    
-    <item>
-      <title>How to create a serverless URL shortener using Amazon S3</title>
-      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/blog/how-create-serverless-url-shortener-using-amazon-s3/</link>
-      <pubDate>Mon, 06 Jan 2020 20:18:07 +0600</pubDate>
-      
-      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/blog/how-create-serverless-url-shortener-using-amazon-s3/</guid>
-      <description>Let’s admit it. We access more and more of the information we need in our daily activities using URLs. These URLs have become longer and more cryptic over time but that’s ok since we simply click on them.
-However, sometimes we need to communicate those URLs in a non-internset-native way. For me this has happened during training classes as well as when writing a book. I want the class to download a piece of source code, but the GitHub project file URL is way too long to be correctly retyped by the attendees.</description>
-    </item>
-    
-    <item>
-      <title>Amazon Web Services Courses</title>
-      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/aws/</link>
+      <title>Advanced Architecting on AWS</title>
+      <link>/courses/aws/advanced-architecting/8-10-november-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/aws/</guid>
-      <description></description>
+      <guid>/courses/aws/advanced-architecting/8-10-november-2022/</guid>
+      <description>Advanced Architecting on AWS, Stockholm - Virtual Session (AAA2211SEV) About the Course This course demonstrates how to efficiently use AWS security services to stay secure in the AWS Cloud. The course focuses on the security practices that AWS recommends for enhancing the security of your data and systems in the cloud. It highlights the security features of AWS key services including compute, storage, networking, and database services. You will also learn how to leverage AWS services and tools for automation, continuous monitoring and logging, and responding to security incidents.</description>
     </item>
     
     <item>
-      <title>Courses by Deep Dives</title>
-      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/agnostic-training/</link>
+      <title>Architecting on AWS</title>
+      <link>/courses/aws/architecting-on-aws/november-29-december-1-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/agnostic-training/</guid>
-      <description></description>
+      <guid>/courses/aws/architecting-on-aws/november-29-december-1-2022/</guid>
+      <description>Architecting on AWS - Virtual Session (AAR2212FIV) About the Course Architecting on AWS is for solutions architects, solution-design engineers, and developers seeking an understanding of AWS architecting. In this course, you will learn to identify services and features to build resilient, secure and highly available IT solutions on the AWS Cloud.
+Architectural solutions differ depending on industry, types of applications, and business size. AWS Authorized Instructors emphasize best practices using the AWS Well-Architected Framework, and guide you through the process of designing optimal IT solutions, based on real-life scenarios.</description>
     </item>
     
     <item>
-      <title>FinOps Training</title>
-      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/finops-training/</link>
+      <title>Architecting with Google Compute Engine</title>
+      <link>/courses/google-cloud-training/achitecting-google-compute-engine/24-26-january-2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/finops-training/</guid>
-      <description></description>
+      <guid>/courses/google-cloud-training/achitecting-google-compute-engine/24-26-january-2023/</guid>
+      <description>About the Course This three-day instructor-led class introduces participants to the comprehensive and flexible infrastructure and platform services provided by Google Cloud Platform, with a focus on Compute Engine. Through a combination of presentations, demos, and hands-on labs, participants explore and deploy solution elements, including infrastructure components such as networks, systems, and application services. This course also covers deploying practical solutions including securely interconnecting networks, customer-supplied encryption keys, security and access management, quotas and billing, and resource monitoring.</description>
     </item>
     
     <item>
-      <title>Google Cloud Training</title>
-      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/google-cloud-training/</link>
+      <title>AWS Cloud Practitioner Essentials</title>
+      <link>/courses/aws/cloud-practitioner-essentials/november-14th-2022-virtual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/google-cloud-training/</guid>
-      <description></description>
+      <guid>/courses/aws/cloud-practitioner-essentials/november-14th-2022-virtual/</guid>
+      <description>About the Course On this fundamental-level full day course you will learn about AWS Cloud concepts, AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. This course also helps you prepare for the AWS Certified Cloud Practitioner exam.
+Course Price Virtual campaign price EUR 770.00 (excl VAT). Regular price EUR 890.00 (excl VAT). Language The course will be taught in English.
+This course is intended for: Sales Legal Marketing Business analysts Project managers AWS Academy students Other IT-related professionals Course Outline Gain a basic understanding of the AWS Cloud and core &amp;amp; application services.</description>
     </item>
     
     <item>
-      <title>Microsoft Azure Training</title>
-      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/microsoft-azure-training/</link>
+      <title>AWS Technical Essentials</title>
+      <link>/courses/aws/technical-essentials/28-november-2022-virtual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/microsoft-azure-training/</guid>
-      <description></description>
+      <guid>/courses/aws/technical-essentials/28-november-2022-virtual/</guid>
+      <description>AWS Technical Essentials, Stockholm - Virtual Session (AES2209SEV) About the Course AWS Technical Essentials introduces you to essential AWS services and common solutions. The course covers the fundamental AWS concepts related to compute, database, storage, networking, monitoring, and security. You will start working in AWS through hands-on course experiences. The course covers the concepts necessary to increase your understanding of AWS services, so that you can make informed decisions about solutions that meet business requirements.</description>
     </item>
     
     <item>
-      <title>Privacy &amp; Policy</title>
-      <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/privacy/</link>
+      <title>AZ-900: Microsoft Azure Fundamentals</title>
+      <link>/courses/microsoft-azure-training/az-900/november-16-17-november/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/privacy/</guid>
+      <guid>/courses/microsoft-azure-training/az-900/november-16-17-november/</guid>
+      <description>AZ-900: Microsoft Azure Fundamentals, Stockholm - Virtual Session (MFU2211SEV) About the Course This two-day course will provide foundational level knowledge on cloud concepts; core Azure services; security, privacy, compliance, and trust; and Azure pricing and support.
+The course will cover general cloud computing concepts, as well as general cloud computing models and services, such as Public, Private and Hybrid cloud, and Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), and Software-as-a-Service (SaaS).
+It will also cover some core Azure services and solutions, as well as key Azure pillar services concerning security, privacy, compliance, and trust.</description>
+    </item>
+    
+    <item>
+      <title>Developing on AWS</title>
+      <link>/courses/aws/developing/november-8-10-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/aws/developing/november-8-10-2022/</guid>
+      <description>Developing on AWS, Helsinki - Virtual Session (ADE2211FIV) About the Course This course teaches experienced developers how to programmatically interact with AWS services to build web solutions. It guides you through a high-level architectural discussion on resource selection and dives deep into using the AWS Software Development Kits (AWS SDKs) and Command Line Interface (AWS CLI) to build and deploy your cloud applications. You will build a sample application during this course, learning how to set up permissions to the development environment, adding business logic to process data using AWS core services, configure user authentications, deploy to AWS cloud, and debug to resolve application issues.</description>
+    </item>
+    
+    <item>
+      <title>FinOps Certified Practitioner</title>
+      <link>/courses/finops-training/fojanuary-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/finops-training/fojanuary-2023/</guid>
+      <description>FinOps certified Practitioner (FCP2301SEV) About the Course This course is an introduction to FinOps fundamentals. It’s ideal for people in a range of business, finance and technology roles, helping build your skills and credibility for driving cost savings from cloud.
+This course is intended for: Cloud budget owners FinOps practitioners like FinOps Analysts, Directors of Cloud Optimisation, Cloud Operations Managers and Cloud Cost Optimisation Data Analysts Engineering roles like Principal Systems Engineers, Cloud Architects, Service Delivery Managers, Engineering Managers, Platform Engineering Directors, Senior Enterprise Architects (EA) and EA Leaders IT Programme and Portfolio Management Leaders Tech leaders like Head of Infrastructure, Head of Cloud Centre of Excellence, CTO and CIO Finance and procurement people like Technology Procurement Managers, Financial Planning Managers and Analysts, Cloud Cost Optimisation Managers and Financial Business Advisors Finance leaders like Head of IT Finance and CFO of IT Course Outline Live (virtual) 2-day, instructor-led workshop (10 hours total) Lead instructor is a real-world practising FinOps leader, supported by 1 to 2 facilitators Interactive approach, featuring group discussions and live activities using Zoom breakout rooms.</description>
+    </item>
+    
+    <item>
+      <title>Google Cloud Fundamentals: Core Infrastructure</title>
+      <link>/courses/google-cloud-training/fundamentals-core-insfrastructure/26-september-2022-virtual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/google-cloud-training/fundamentals-core-insfrastructure/26-september-2022-virtual/</guid>
+      <description>About the Course This one-day instructor-led class provides an overview of Google Cloud Platform products and services. Through a combination of presentations, demos, and hands-on labs, participants learn the value of Google Cloud Platform and how to incorporate cloud-based solutions into business strategies.
+This course is intended for: Individuals planning to deploy applications and create application environments on Google Cloud Platform. Developers, systems operations professionals, and solution architects getting started with Google Cloud Platform.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/privacy/</guid>
       <description>At Deep Dives, accessible from https://deepdives.eu/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Deep Dives and how we use it.
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Deep Dives.</description>
+    </item>
+    
+    <item>
+      <title>Security Engineering on AWS</title>
+      <link>/courses/aws/security-engineering/15-17-november-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/aws/security-engineering/15-17-november-2022/</guid>
+      <description>Security Engineering on AWS - Virtual Session (ASC2211NOV) About the Course This course demonstrates how to efficiently use AWS security services to stay secure in the AWS Cloud. The course focuses on the security practices that AWS recommends for enhancing the security of your data and systems in the cloud. It highlights the security features of AWS key services including compute, storage, networking, and database services. You will also learn how to leverage AWS services and tools for automation, continuous monitoring and logging, and responding to security incidents.</description>
+    </item>
+    
+    <item>
+      <title>Systems Operations on AWS</title>
+      <link>/courses/aws/systems-operations/november-15-17-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/aws/systems-operations/november-15-17-2022/</guid>
+      <description>Systems Operations on AWS, Stockholm - Virtual Session (ASO2211SEV) About the Course This 3 day course teaches systems operators and anyone performing system operations functions how to install, configure, automate, monitor, secure, maintain and troubleshoot the services, networks, and systems on AWS necessary to support business applications. The course also covers specific AWS features, tools, and best practices related to these functions.
+Course Price Virtual campaign price EUR 2,140.00 (excl VAT) Regular price EUR 2,490.</description>
     </item>
     
   </channel>

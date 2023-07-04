@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cloud Trainning with a Difference on Deep Dives | Cloud training with a difference.</title>
-    <link>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/contact/</link>
-    <description>Recent content in Cloud Trainning with a Difference on Deep Dives | Cloud training with a difference.</description>
+    <title>Cloud Trainning With A Difference on Deep Dives | Cloud training with a difference.</title>
+    <link>/contact/</link>
+    <description>Recent content in Cloud Trainning With A Difference on Deep Dives | Cloud training with a difference.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/contact/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

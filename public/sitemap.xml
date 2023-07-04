@@ -2,37 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/blog/aws-iam-not/</loc>
-    <lastmod>2021-01-02T20:18:07+06:00</lastmod>
-  </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/</loc>
-    <lastmod>2021-01-02T20:18:07+06:00</lastmod>
-  </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/blog/</loc>
+    <loc>/courses/</loc>
     <lastmod>2020-08-31T20:33:11+06:00</lastmod>
   </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/</loc>
+    <loc>/</loc>
     <lastmod>2020-08-31T20:33:11+06:00</lastmod>
   </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/blog/how-create-serverless-url-shortener-using-amazon-s3/</loc>
-    <lastmod>2020-01-06T20:18:07+06:00</lastmod>
+    <loc>/courses/aws/advanced-architecting/8-10-november-2022/</loc>
   </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/aws/</loc>
+    <loc>/courses/aws/architecting-on-aws/november-29-december-1-2022/</loc>
   </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/categories/</loc>
+    <loc>/courses/google-cloud-training/achitecting-google-compute-engine/24-26-january-2023/</loc>
   </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/contact/</loc>
+    <loc>/courses/aws/cloud-practitioner-essentials/november-14th-2022-virtual/</loc>
   </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/agnostic-training/</loc>
+    <loc>/courses/aws/technical-essentials/28-november-2022-virtual/</loc>
   </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/finops-training/</loc>
+    <loc>/courses/microsoft-azure-training/az-900/november-16-17-november/</loc>
   </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/google-cloud-training/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/courses/microsoft-azure-training/</loc>
+    <loc>/contact/</loc>
   </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/privacy/</loc>
+    <loc>/courses/aws/developing/november-8-10-2022/</loc>
   </url><url>
-    <loc>http://deepdivesweb.s3-website.eu-west-2.amazonaws.com/tags/</loc>
+    <loc>/courses/finops-training/fojanuary-2023/</loc>
+  </url><url>
+    <loc>/courses/google-cloud-training/fundamentals-core-insfrastructure/26-september-2022-virtual/</loc>
+  </url><url>
+    <loc>/privacy/</loc>
+  </url><url>
+    <loc>/courses/aws/security-engineering/15-17-november-2022/</loc>
+  </url><url>
+    <loc>/courses/aws/systems-operations/november-15-17-2022/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
 </urlset>
