@@ -6,7 +6,6 @@ theme = "apsho"
 
 # URL Params
 [permalinks]
-    uglyurls = "false"
 
 # Navigation Bar
 [[menu.main]]
