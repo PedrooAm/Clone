@@ -1,12 +1,12 @@
 # MAIN base
-baseURL = "/index.html"
+baseURL = "/"
 languageCode = "en-us"
 title = "Deep Dives | Cloud training with a difference."
 theme = "apsho"
 
 # URL Params
 [permalinks]
-uglyurls = "false"
+uglyurls = false
 
 # Navigation Bar
 [[menu.main]]
